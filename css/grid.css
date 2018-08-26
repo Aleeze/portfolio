@@ -308,7 +308,7 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
 
   @media (min-width:57.25em) {
     .menu-items {
-      padding-left: 33%;
+      padding-left: 32%;
     }
 
     #mobile-error{
