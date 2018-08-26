@@ -45,6 +45,8 @@
 }
 
 .my-work-heading{
+  text-align: center;
+  padding-right: 0rem;
   margin-left: 2.75rem;
   font-size: 1.35rem;
   color: #212121bd;
@@ -206,7 +208,7 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
 
 @media (min-width:50.25em) {
   .menu-items {
-    padding-left: 39%;
+    padding-left: 37%;
   }
 
   #intro{
@@ -219,7 +221,7 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
 
 @media (min-width:79.00em) {
   .menu-items {
-    padding-left: 46%;
+    padding-left: 44%;
   }
   #intro{
     padding: 0rem 5rem 20rem 5rem;
@@ -227,6 +229,8 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
 }
 @media (min-width:85.37em) {
   .menu-items {
-    padding-left: 49%;
+    padding-left: 47%;
   }
+
+
 }
