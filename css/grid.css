@@ -215,6 +215,9 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
     margin-top: 50%;
     opacity: 100;
   }
+  #clue-personas img{
+    display: inline;
+  }
 }
 
 @media (min-width: 23.5em) {
@@ -240,9 +243,12 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
     background-color: #65be71;
   }
 
-    #mobile-error{
-      display: none;
-    }
+  #mobile-error{
+    display: none;
+  }
+  #clue-personas img{
+    display: inline;
+  }
 
 }
 
@@ -268,6 +274,9 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
 
   #intro{
     background-color: #65be71;
+  }
+  #clue-personas img{
+    display: inline;
   }
 }
 
@@ -304,88 +313,101 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
   #intro{
     background-color: #65be71;
   }
+  #clue-personas img{
+    display: inline;
+  }
 }
 
-  @media (min-width:57.25em) {
-    .menu-items {
-      padding-left: 32%;
-    }
-
-    #mobile-error{
-      display: none;
-    }
-
-    .container-menu{
-      display: flex;
-    }
-
-    .coming-soon,nav,img{
-      display: block;
-    }
-
-    a,p,h1,h2,h3{
-      display: inherit;
-    }
-    footer a{
-      display: block;
-    }
-    #intro{
-      background-color: #65be71;
-    }
+@media (min-width:57.25em) {
+  .menu-items {
+    padding-left: 32%;
   }
 
-  @media (min-width:79.00em) {
-    .menu-items {
-      padding-left: 42%;
-    }
-    #intro{
-      padding: 0rem 5rem 20rem 5rem;
-    }
-    .container-menu{
-      display: flex;
-    }
-
-    .coming-soon,nav,img{
-      display: block;
-    }
-
-    a,p,h1,h2,h3{
-      display: inherit;
-    }
-    footer a{
-      display: block;
-    }
-    #intro{
-      background-color: #65be71;
-    }
-    #mobile-error{
-      display: none;
-    }
+  #mobile-error{
+    display: none;
   }
-  @media (min-width:85.37em) {
-    .menu-items {
-      padding-left: 45%;
-    }
-    .container-menu{
-      display: flex;
-    }
 
-    .coming-soon,nav,img{
-      display: block;
-    }
-
-    a,p,h1,h2,h3{
-      display: inherit;
-    }
-
-    footer a{
-      display: block;
-    }
-
-    #intro{
-      background-color: #65be71;
-    }
-    #mobile-error{
-      display: none;
-    }
+  .container-menu{
+    display: flex;
   }
+
+  .coming-soon,nav,img{
+    display: block;
+  }
+
+  a,p,h1,h2,h3{
+    display: inherit;
+  }
+  footer a{
+    display: block;
+  }
+  #intro{
+    background-color: #65be71;
+  }
+  #clue-personas img{
+    display: inline;
+  }
+}
+
+@media (min-width:79.00em) {
+  .menu-items {
+    padding-left: 42%;
+  }
+  #intro{
+    padding: 0rem 5rem 20rem 5rem;
+  }
+  .container-menu{
+    display: flex;
+  }
+
+  .coming-soon,nav,img{
+    display: block;
+  }
+
+  a,p,h1,h2,h3{
+    display: inherit;
+  }
+  footer a{
+    display: block;
+  }
+  #intro{
+    background-color: #65be71;
+  }
+  #mobile-error{
+    display: none;
+  }
+  #clue-personas img{
+    display: inline;
+  }
+}
+@media (min-width:85.37em) {
+  .menu-items {
+    padding-left: 45%;
+  }
+  .container-menu{
+    display: flex;
+  }
+
+  .coming-soon,nav,img{
+    display: block;
+  }
+
+  a,p,h1,h2,h3{
+    display: inherit;
+  }
+
+  footer a{
+    display: block;
+  }
+
+  #intro{
+    background-color: #65be71;
+  }
+  #mobile-error{
+    display: none;
+  }
+
+  #clue-personas img{
+    display: inline;
+  }
+}
