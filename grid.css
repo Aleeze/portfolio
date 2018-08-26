@@ -1,0 +1,234 @@
+
+/*  -------------------------------------------- GRID ------------------------------------*/
+
+.two-colums{
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+}
+/*  -------------------------- ALIGNMENT CLASSES ------------------------------------*/
+
+.center-text{
+  text-align: center;
+}
+.block-it{
+  display: block;
+}
+
+.flex-it {
+  display: flex;
+}
+
+.right-it {
+  justify-content: flex-end;
+}
+
+.left-it {
+  justify-content: flex-start;
+}
+.center-block{
+  margin: auto;
+}
+
+.center-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-space-bottom{
+  margin-bottom: 5rem;
+}
+
+.lil-more-space-bottom{
+  margin-bottom: 3rem;
+}
+
+.my-work-heading{
+  text-align: center;
+  padding-right: 0rem;
+  margin-left: 2.75rem;
+  font-size: 1.35rem;
+  color: #212121bd;
+}
+
+
+
+
+/*  -------------------------------------------- Menu Bar ------------------------------------*/
+
+nav{
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+
+
+#logo{
+  padding-left: 1rem;
+}
+
+.container-menu{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 3.2rem;
+  padding-bottom:1rem;
+  padding-top: 1rem;
+  align-items: center;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.17);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.17);
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.17);
+}
+
+.menu-items{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end
+  align-self:flex-end;
+  padding-right: 3.55rem;
+  padding-left:37.15rem;
+  height: 2rem;
+}
+
+/*  -------------------------------------------- Intro ------------------------------------*/
+
+#intro{
+  margin-top: 5rem;
+  padding: 0rem 5rem 19rem 5rem;
+}
+#intro p {
+  position: relative;
+  text-align: center;
+  left: 33.75rem;
+  top:10rem;
+  width: 50%;
+}
+
+#about-me div{
+  padding: 0.5rem 3rem 0rem 6.5rem;
+}
+
+#bio{
+  padding: 10rem 10rem 10rem 10rem
+}
+
+/*  ------------------------------------------ My Work ----------------------------------*/
+
+#my-work{
+  padding: 5rem 0rem 5rem 0rem;
+}
+
+
+
+/*  ------------------------------------------ Clue S.O.S ----------------------------------*/
+/*  --------------------- intro -----------------*/
+
+
+#clue-intro h1, p{
+  margin-left: 12rem;
+}
+
+img[src*="clue-persona-1"]{
+  margin-left: 6rem;
+}
+
+.center-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#clue-intro .block-it,#nota-intro .block-it{
+  padding: 9rem 5.5rem 0rem 0rem;
+}
+
+
+/*  --------------------- Process -----------------*/
+
+#clue-personas img{
+  width: 43%;
+  margin-bottom: 4rem;
+}
+
+#process h2,p{
+  margin-left: 12rem;
+}
+
+#process h3{
+  margin-left: 12rem;
+}
+
+img[src*="clue-persona-3"] {
+  display: block;
+  margin: auto;
+  width: 55%;
+
+}
+
+.regular-para{
+  margin: auto;
+  padding: 0rem 12rem 4rem 12rem;
+}
+
+.less-padding-bottom{
+  padding: 0rem 12rem 2rem 12rem;
+}
+
+.no-padding-bottom{
+  padding-bottom: 0rem;
+}
+
+.less-padding-right{
+  padding-right: 18rem;
+}
+
+img[src*="your-cycle-1"], img[src*="analysis"]{
+  margin-right: 1rem;
+}
+
+
+@media (min-width: 15em) {
+  .menu-items {
+    padding-left: 9.15rem;
+  }
+}
+
+@media (min-width: 23.5em) {
+  .menu-items {
+    padding-left: 0.15rem;
+  }
+}
+
+@media (min-width: 45em) {
+  .menu-items {
+    padding-left: 2.15rem;
+  }
+}
+
+@media (min-width:50.25em) {
+  .menu-items {
+    padding-left: 39%;
+  }
+
+  #intro{
+    padding: 1rem 5rem 20rem 5rem;
+  }
+
+  #intro p {
+    left: 30.75rem;
+}
+
+@media (min-width:79.00em) {
+  .menu-items {
+    padding-left: 46%;
+  }
+  #intro{
+    padding: 0rem 5rem 20rem 5rem;
+  }
+}
+@media (min-width:85.37em) {
+  .menu-items {
+    padding-left: 49%;
+  }
+}
