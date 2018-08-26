@@ -215,9 +215,7 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
     margin-top: 50%;
     opacity: 100;
   }
-  #clue-personas img{
-    display: inline;
-  }
+
 }
 
 @media (min-width: 23.5em) {
@@ -229,25 +227,20 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
     display: flex;
   }
 
-  .coming-soon,nav,img{
-    display: block;
-  }
-
-  a,p,h1,h2,h3{
-    display: inherit;
-  }
-  footer a{
-    display: block;
-  }
-  #intro{
-    background-color: #65be71;
-  }
-
-  #mobile-error{
+  h1,p,img,a,h2,h3,nav{
     display: none;
   }
-  #clue-personas img{
-    display: inline;
+  #intro{
+    background-color: white;
+  }
+  .coming-soon,.container-menu{
+    display: none;
+  }
+  #mobile-error{
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+    opacity: 100;
   }
 
 }
