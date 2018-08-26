@@ -1,0 +1,324 @@
+<!doctype html>
+<html land="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Aleeze Asif's Portfolio Site </title>
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="js/main.js">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400" rel="stylesheet">
+
+
+</head>
+
+
+<body>
+
+  <nav class="container-menu" >
+    <a href="index.html">
+      <div id=logo>
+        <img alt="my logo" src="img/logo.svg">
+      </div>
+    </a>
+    <div class="menu-items active">
+      <a href="index.html#my-work"> MY WORK </a>
+      <a href="index.html#bio"> ABOUT ME </a>
+      <a href="resume.pdf"> RESUME </a>
+    </div>
+  </nav>
+
+  <section id=clue-intro>
+
+    <img alt="clue banner with the logo of the app" src="img/clue-banner.svg">
+
+    <p class="qoute">
+      "Clue S.O.S creates a community for women who are on their period and need emergency menstrual products."
+    </p>
+    <div class="flex-it right-it">
+      <div class="block-it team-names">
+
+        <p> <b>TEAM: </b> Cameron Swanson, Taylor Nguyen </p>
+        <p> <b>ROLE:</b> UI Designer, UX Researcher </p>
+        <p> <b>TOOLS:</b> Adobe Illustrator, Sketch </p>
+
+      </p>
+
+    </div>
+  </div>
+
+  <h1 class="line-heading"> Context </h1>
+
+  <p class="regular-para">
+    My team and I were tasked to create a feature for the menstrual tracking app “Clue”. Our goal was to create a feature that caters to the needs of Clue’s user-base and its stakeholders. We were given two weeks to conduct research, understand Clue’s user interface, and design the new feature.
+  </p>
+
+</section>
+
+
+<section id=process>
+  <p class="line-heading">We started by gaining insights regarding painpoints women face on their periods.</p>
+  <p class="regular-para">
+    We talked to 5 women about their experiences with periods, what makes them hard or inconvenient and what they do to make their periods more manageable. We also read through Clue's reviews on the app store to find out what the users liked and disliked about the app. From our research, we realized that the needs of women who experience strong PMS symptoms differ from women who don’t. Form these insights, we created two personas.
+  </p>
+
+  <div id=clue-personas>
+    <img alt="Lynda Collins Persona" src="img/clue-persona-1.png">
+    <img alt="Merrisa Chan Persona" src="img/clue-persona-2.png">
+  </div>
+
+  <p class="regular-para">
+    <b>Lynda</b> is a 32 year-old Event planner who experiences strong PMS symptoms and wants to keep track of activities that may exacerbate them while <b>Merissa</b> is a 20 year-old college student who wants to make sure that she is prepared for her period.
+  </p>
+
+  <p class="line-heading">Next, we began research on Clue's vision as an organization and it's stakeholders' goals  </p>
+  <p class="regular-para">
+    We explored Clue’s website, read through news-letters and researched it's CEO, Ida Tin to better understand Clue's vision for its users. From our research, we created a stakeholder persona for Ida Tin that represents the interests of the organization as a whole.
+  </p>
+
+
+  <img alt="Ida Tin Persona" src="img/clue-persona-3.png">
+
+  <p class = "line-heading more-space-bottom">
+    Based on the exploratory research findings, we proposed three features
+  </p>
+
+
+  <h2>1. Clue S.O.S</h2>
+  <p class="regular-para less-padding-bottom">
+    Not having menstrual products on hand when your period cycle begins is an extremely stress inducing situation. CLUE S.O.S acts as a safety net for women in this situation by allowing them to contact and ask their friends or women in close proximity for menstrual products.
+  </p>
+
+  <h2>2. Clue Journal</h2>
+  <p class="regular-para less-padding-bottom">
+    Allows users to record not only their period symptoms but also activities that may cause or exasperate them within the app.
+  </p>
+
+  <h2>3. Clue Forum</h2>
+  <p class="regular-para less-padding-bottom">
+    Creating a social forum within Clue where women can talk about sexual health topics, explore what other women experience and educate themselves about their own sexual health.
+  </p>
+
+  <p class="regular-para less-padding-bottom">
+    While Clue Forum and Clue Journal both addressed user frustrations, forums and note taking applications were common place with many UI libraries and examples we could take from. Clue S.O.S presented the most interesting and challenging design opportunity. Not only was it harder to find similar interfaces to take inspiration from, it addressed frustrations of both women with and without strong PMS symptoms.
+
+
+
+  </p>
+
+    <p class="regular-para less-padding-bottom"> <b> So, we decided to design for Clue S.O.S.</b>  </p>
+
+  <p class="line-heading less-padding-right">
+    We started understanding Clue's interface by identifying core features...
+  </p>
+
+  <p class="regular-para">
+    This would allow us to determine Clue S.O.S' place in Clue's existing interface.
+  </p>
+
+
+
+  <h3>1. Your Current Cycle</h3>
+  <p class="regular-para">
+    Shows users a monthly view of their cycle allowing them to get information about their menstrual cycle and fertility window at a glance.
+  </p>
+  <div class="center-flex more-space-bottom">
+    <img alt="clue cycle diagram" src="img/your-cycle-1.png">
+    <img alt="clue cycle diagram" src="img/your-cycle-2.png">
+  </div>
+
+
+
+  <h3>2. Analysis</h3>
+  <p class="regular-para">
+    Allows users to spot trends and outliers regarding specifitc aspects of their sexual health like fertility, period length, PMS, cravings, cramps etc.
+  </p>
+  <div class="center-flex more-space-bottom">
+    <img alt="clue cycle diagram" src="img/clue-analysis.png">
+  </div>
+
+
+
+  <h3>3. Calendar</h3>
+  <p class="regular-para">
+    Allows users to view all their past cycles and three future cycles based on predictions. This allows them to analyze their menstrual history, detect patterns and plan for the future.
+  </p>
+  <div class="center-flex more-space-bottom">
+    <img alt="clue cycle diagram" src="img/clue-calendar.png">
+  </div>
+
+
+  <h3>4. Data Input</h3>
+  <p class="regular-para">
+    Users can input information about their flow, mood, cramps and more. This allows Clue to make predictions about when their next period will be.
+  </p>
+  <div class="center-flex more-space-bottom">
+    <img alt="clue cycle diagram" src="img/clue-input-data.png">
+  </div>
+
+
+  <p class="line-heading less-padding-right">
+    Next, we identified Clue's core UI patterns
+  </p>
+
+  <p class="regular-para">
+    Incorporating Clue's existing UI patterns into Clue S.O.S would integrate Clue S.O.S within the existing interface seamlessly. Our research of Clue's interface revealed that Clue uses color extensively for the following purposes:
+  </p>
+
+
+
+  <h3>1. Creating Pointers</h3>
+  <p class="regular-para  less-padding-bottom">
+    Color is used to indicate the kind of information users are looking at. For e.g. on the "Your Current Cycle" diagram, red and blue represent period and fertility. Green on the other hand, represents the current date and/or a point where the user can add information.
+  </p>
+  <p class="regular-para">
+    These color indicators are repeated on the "Analysis" and "Calendar" screens as well.
+  </p>
+  <div class="center-flex more-space-bottom">
+    <img alt="clue cycle diagram" src="img/your-cycle-1.png">
+    <img alt="clue cycle diagram" src="img/clue-analysis.png">
+    <img alt="clue cycle diagram" src="img/clue-calendar.png">
+  </div>
+
+
+
+  <h3>2. Creating Categories</h3>
+  <p class="regular-para">
+    Clue uses color to categorize tracking options. For e.g. red represents period tracking, blue represents tracking changes in your body etc.
+  </p>
+
+  <div class="center-flex more-space-bottom">
+    <img alt="clue cycle diagram" src="img/clue-color-categories.png">
+  </div>
+
+
+
+  <h3>3. Establishing Hierarchy</h3>
+  <p class="regular-para less-padding-bottom">
+    Clue uses color sparingly in most cases in order to establish hierarchy and draw the user's eye towards what is most important on a certain screen.
+  </p>
+  <p class="regular-para ">
+    On the "Analysis" page, highly saturated blues, reds and greens are used on a muted gray color to bring up certain aspects of the interface in hierarchy.
+  </p>
+  <div class="center-flex more-space-bottom">
+    <img alt="clue cycle diagram" src="img/clue-analysis.png">
+  </div>
+
+
+
+  <p class="line-heading less-padding-right more-space-bottom">
+    With a complete understanding of Clue's UI patterns, we started wireframing Clue S.O.S' workflow.
+  </p>
+  <h3>1. Accessing Clue S.0.S</h3>
+
+  <p class="regular-para less-padding-bottom">
+    Users can send an S.O.S from the home screen i.e. the "Your Current Cycle" screen. The “i” button on the upper right corner has been relocated to the more information section and has been replaced by Clue S.O.S' life raft logo.
+  </p>
+
+  <p class="regular-para no-padding-bottom">
+    Clue asks the user permission to access their location when they access the feature for the first time. Once the user allows Clue to track their location, they are greeted with a list of Clue users with their names, distance and the kind of menstrual product they use. Clue S.O.S only shows people that the user has added into Clue initially.
+  </p>
+
+  <div class="center-flex">
+    <img alt="initial location prompt" src="img/clue-mockups/location-prompt.png">
+  </div>
+
+
+
+  <h3>2. Using the Global S.O.S</h3>
+  <p class="regular-para">
+    Users can turn on the Global S.O.S feature in order to seek help from clue users that may not be in their friend list if need be. They can also search for specific people in their lists.
+  </p>
+
+  <div class="center-flex">
+    <img alt="Global S.O.S" src="img/clue-mockups/global-S.O.S.png">
+  </div>
+
+  <h3>3. Sending an S.O.S to One Person</h3>
+  <p class="regular-para">
+    Users must add their location to send an S.O.S. They can also add a personalized message regarding a room number or other specific instructions if need be.
+  </p>
+
+  <div class="center-flex">
+    <img alt="Sending an S.O.S" src="img/clue-mockups/send-SOS-single.png">
+  </div>
+
+  <h3>4. Sending an S.O.S to Multiple People</h3>
+  <p class="regular-para">
+    Users can send an S.O.S to multiple people at a time by tapping and holding on a person's name and selecting them.
+    The state of the life raft changes to a tick to let the user know that their S.O.S has been accepted.
+  </p>
+  <div class="center-flex">
+    <img alt="Sending an S.O.S" src="img/clue-mockups/send-SOS-multiple.png">
+  </div>
+
+  <h3>5. Recieving an S.O.S</h3>
+  <p class="regular-para">
+    On the receiver's side, the S.O.S pops up as a notification. Tapping on the notification takes the user to a message board where they can first either accept of decline the S.O.S.
+  </p>
+  <div class="center-flex">
+    <img alt="Receving an S.O.S" src="img/clue-mockups/receiving-SOS.png">
+  </div>
+
+
+  <p class="line-heading"> Reflection </p>
+
+  <p class="regular-para">
+    Our team realized early on that creating features for existing interfaces calls for a different set of priorities. What we didn't anticipate was how time consuming creating taskflows that everyone agreed on would be. That said, the differing opinions and open communication made for a much richer pool of ideas.
+  </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+<footer>
+
+
+  <section id="footer-icons">
+
+
+    <a class="footer-padding" href="https://www.linkedin.com/in/aleezeasif/">
+      <img alt="instagram logo" src="img/instagram.svg">
+    </a>
+
+    <a class="footer-padding" href="mailto:aleeze1234@gmail">
+      <img alt="gmail" src="img/gmail.svg">
+    </a>
+
+    <a href="https://www.linkedin.com/in/aleezeasif/">
+      <img alt="linkedin logo" src="img/linkedin.svg">
+    </a>
+
+
+
+  </section>
+
+  <p id="copyright"> Made with ❤️ in Vancouver, BC </p>
+
+</footer>
+
+
+
+</body>
