@@ -245,11 +245,21 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
 
 }
 
-@media (min-width: 45em) {
+@media (min-width:45em) {
   .menu-items {
-    padding-left: 2.15rem;
+    padding-left: 21%;
   }
 
+  #intro{
+    padding: 1rem 5rem 20rem 5rem;
+  }
+
+  #intro p {
+    left: 21.75rem;
+  }
+  #mobile-error{
+    display: none;
+  }
 
   .container-menu{
     display: flex;
@@ -258,9 +268,7 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
   .coming-soon,nav,img{
     display: block;
   }
-  footer a{
-    display: block;
-  }
+
   p,h1,h2,h3{
     display: inherit;
   }
@@ -268,7 +276,9 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
   a{
     display: inline;
   }
-
+  footer a{
+    display: block;
+  }
   #intro{
     background-color: #65be71;
   }
@@ -276,6 +286,8 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
     display: inline;
   }
 }
+
+
 
 @media (min-width:50.25em) {
   .menu-items {
