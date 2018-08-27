@@ -399,47 +399,15 @@ img[src*="nota-banner"]{
 
 }
 
-
 @media (min-width:45em) {
-  .menu-items {
-    padding-left: 36%;
+  img[src*="flower"]{
+    position: absolute;
+    top:0rem;
+    left: -8rem;
+    width: 80%;
+    height: 80%
   }
 
-  #intro{
-    padding: 1rem 5rem 20rem 5rem;
-  }
-
-  #intro p {
-    left: 30.75rem;
-  }
-  #mobile-error{
-    display: none;
-  }
-
-  .container-menu{
-    display: flex;
-  }
-
-  .coming-soon,nav,img{
-    display: block;
-  }
-
-  p,h1,h2,h3{
-    display: inherit;
-  }
-
-  a{
-    display: inline;
-  }
-  footer a{
-    display: block;
-  }
-  #intro{
-    background-color: #65be71;
-  }
-  #clue-personas img{
-    display: inline;
-  }
 }
 
 @media (min-width:50.25em) {
