@@ -357,8 +357,12 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
     display: block;
   }
 
-  a,p,h1,h2,h3{
+  p,h1,h2,h3{
     display: inherit;
+  }
+  
+  a{
+    display: inline;
   }
   footer a{
     display: block;
