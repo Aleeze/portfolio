@@ -279,7 +279,18 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
   #process h2, #process h3{
     margin-left: 0.55rem;
   }
+  /*  ------------------ Bio ------------------*/
 
+  #bio{
+    padding: 0rem 3rem 10rem 3rem;
+    display: block;
+  }
+  #bio img{
+    display: block;
+    margin: auto;
+    padding: 3rem 0rem 3rem 0rem;
+    width: 45%;
+  }
 
 
 }
@@ -310,6 +321,7 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
   #intro #intro-sub-cap{
     left: 21%;
   }
+
 
   /*  ------------------ Bio ------------------*/
 
