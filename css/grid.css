@@ -366,7 +366,7 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
   }
 
   #clue-intro .block-it,#nota-intro .block-it{
-    /* padding: 19rem 1.99rem 0rem 1.99rem; */
+    padding: 19rem 1.99rem 0rem 1.99rem;
   }
 }
 
