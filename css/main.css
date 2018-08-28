@@ -175,7 +175,7 @@ nav a:hover, nav a:active, nav a:focus{
 
 
 .block-it h2{
-font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .block-it p{
@@ -204,6 +204,7 @@ font-size: 1.5rem;
 #intro #intro-sub-cap{
   top:12rem;
   margin-left: 0rem;
+  width: fit-content;
   right:-14rem;
   font-family: Roboto;
   height: fit-content;
@@ -375,10 +376,6 @@ img[src*="nota"]{
   margin: 0.75rem;
 }
 
-figure{
-width: 21%
-}
-
 img[src*="nota-banner"]{
   width: 100%;
   margin:5rem 0rem 0rem 0rem;
@@ -392,29 +389,148 @@ img[src*="nota-banner"]{
 
 
 @media (min-width: 15em) {
+  /*  ------------------ Menu Bar ------------------*/
 
+  nav a{
+    width: 100%;
+    text-align: center;
+  }
+
+  #logo{
+    width: 25%;
+    margin: auto;
+  }
+
+  .container-menu{
+    height: fit-content;
+  }
+
+  /*  ------------------ Intro ------------------*/
+
+  img[src*="flower"]{
+    position: absolute;
+    top:3rem;
+    bottom: 10rem;
+    left: 0rem;
+    width: 100%;
+    height: 100%
+  }
+
+  /*  ------------------ Clue SOS ------------------*/
+
+  .qoute{
+    margin: 1rem;
+    top: 50.5%;
+    margin-bottom: 2rem;
+  }
+  .block-it p{
+    margin: 0rem 0.55rem 0rem 0.55rem;
+  }
+  footer a{
+    width: 11.5%;
+  }
+
+  #copyright {
+    font-size: 0.25rem;
+  }
 }
 
 @media (min-width: 23.5em) {
+  /*  ------------------ Fixer ------------------*/
+  .block-it p{
+    margin: 0rem 0rem 1rem 0rem;
+  }
 
+  nav a{
+    width: 100%;
+    text-align: center;
+  }
+
+  #logo{
+    width: 25%;
+    margin: auto;
+  }
+
+  .container-menu{
+    height: fit-content;
+  }
+
+  /*  ------------------ Clue SOS ------------------*/
+
+  .qoute{
+    top: 58.5%;
+    margin: 2 auto;
+  }
+  footer a{
+    width: 8.5%;
+  }
+  #copyright {
+    font-size: 0.55rem;
+  }
 }
 
 @media (min-width:45em) {
+  /*  ------------------ Fixer ------------------*/
+  .block-it p{
+    margin: 0rem 0rem 1rem 0rem;
+  }
+
+  /*  ------------------ Menu Bar ------------------*/
+  nav a{
+    width: 17%;
+    text-align: center;
+  }
+
+  #logo{
+    width: 9rem;
+    text-align: left;
+  }
+
   img[src*="flower"]{
     position: absolute;
     top:0rem;
     left: -8rem;
     width: 80%;
-    height: 80%
+    height: 80%;
   }
+
+  /*  ------------------ Clue SOS ------------------*/
+
+  .qoute{
+    top: 40.5%;
+    margin: 4 auto;
+
+  }
+
+  footer a{
+    width: 5.5%;
+  }
+
+  #copyright {
+    font-size: 0.77rem;
+  }
+
+
 
 }
 
 @media (min-width:50.25em) {
-  .qoute{
-    margin-right: 43rem;
-    top: 68%;
+  /*  ------------------ Fixer ------------------*/
+  .block-it p{
+    margin: 0rem 0rem 1rem 0rem;
   }
+
+  /*  ------------------ Menu Bar ------------------*/
+  nav a{
+    width: 17%;
+    text-align: center;
+  }
+
+  #logo{
+    width: 9rem;
+    text-align: left;
+  }
+
   img[src*="flower"]{
     position: absolute;
     top:-3rem;
@@ -422,12 +538,76 @@ img[src*="nota-banner"]{
     width: 100%;
     height: 100%
   }
+  /*  ------------------ Clue SOS ------------------*/
+
+  .qoute{
+    margin-right: 30rem;
+    top: 43.5%;
+  }
+
+  #copyright {
+    font-size: 0.77rem;
+  }
+
+  #my-work .line-heading{
+    padding-right: 0rem;
+    margin-left: 0rem;
+
+
+  }
+
+}
+
+@media (min-width:57.25em) {
+  /*  ------------------ Fixer ------------------*/
+  .block-it p{
+    margin: 0rem 0rem 1rem 0rem;
+  }
+
+  /*  ------------------ Clue SOS ------------------*/
+
+  .qoute{
+    margin-right: 38rem;
+    top: 49%;
+  }
+  #copyright {
+    font-size: 0.77rem;
+  }
+
+  #my-work .line-heading{
+    padding-right: 0rem;
+    margin-left: 0rem;
+
+  }
+
 }
 
 @media (min-width:79.00em) {
+  /*  ------------------ Fixer ------------------*/
+  .block-it p{
+    margin: 0rem 0rem 1rem 0rem;
+  }
+  #team-names .block-it {
+    margin-bottom: 0.25rem;
+  }
+  /*  ------------------ Menu Bar ------------------*/
+  nav a{
+    width: 17%;
+    text-align: center;
+  }
+
+  #logo{
+    width: 9rem;
+    text-align: left;
+  }
+
+
+  /*  ------------------ Project Pages ------------------*/
+
   .qoute{
-    margin-right: 50rem;
-    top: 60%;
+    margin-left: 5rem;
+    margin-right: 52rem;
+    top: 56%;
   }
 
   img[src*="flower"]{
@@ -438,9 +618,39 @@ img[src*="nota-banner"]{
     width: 105%;
     height: 105%
   }
+  footer a{
+    width: 4.5%;
+  }
+  #copyright {
+    font-size: 0.77rem;
+  }
+
+  #my-work .line-heading{
+    padding-right: 0rem;
+    margin-left: 0rem;
+
+  }
+
+
 }
 
 @media (min-width:85.37em) {
+  /*  ------------------ Fixer ------------------*/
+  .block-it p{
+    margin: 0rem 0rem 1rem 0rem;
+  }
+
+  /*  ------------------ Menu Bar ------------------*/
+  nav a{
+    width: 17%;
+    text-align: center;
+  }
+
+  #logo{
+    width: 9rem;
+    text-align: left;
+  }
+
   .qoute{
     margin-right: 50rem;
     top: 66%;
@@ -467,6 +677,20 @@ img[src*="nota-banner"]{
     margin-top: 3rem;
     padding-right: 25rem;
   }
+
+  footer a{
+    width: 5.5%;
+  }
+  #copyright {
+    font-size: 0.77rem;
+  }
+
+  #my-work .line-heading{
+    padding-right: 0rem;
+    margin-left: 0rem;
+  }
+
+
 
 
 }

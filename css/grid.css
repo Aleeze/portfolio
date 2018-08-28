@@ -36,6 +36,10 @@
   align-items: center;
 }
 
+.wrap-it{
+  flex-wrap: wrap;
+}
+
 .more-space-bottom{
   margin-bottom: 5rem;
 }
@@ -71,7 +75,8 @@ nav{
 .container-menu{
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  width: 100vw;
+
   height: 3.2rem;
   padding-bottom:1rem;
   padding-top: 1rem;
@@ -83,11 +88,12 @@ nav{
 
 .menu-items{
   display: flex;
+  flex-wrap:wrap;
   align-items: center;
   justify-content: flex-end
   align-self:flex-end;
   padding-left:37.15rem;
-  height: 2rem;
+  height: fit-content;
 }
 
 /*  -------------------------------------------- Intro ------------------------------------*/
@@ -128,10 +134,6 @@ nav{
   margin-left: 12rem;
 }
 
-img[src*="clue-persona-1"]{
-  margin-left: 6rem;
-}
-
 .center-flex{
   display: flex;
   justify-content: center;
@@ -162,7 +164,6 @@ img[src*="clue-persona-3"] {
   display: block;
   margin: auto;
   width: 55%;
-
 }
 
 .regular-para{
@@ -186,251 +187,518 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
   margin-right: 1rem;
 }
 
+#bio{
+  display: flex;
+}
 
+#my-work .coming-soon{
+  width: 16.5rem;
+}
 
-#mobile-error{
-  display: none;
-  margin: auto;
+#clue-personas{
+  display: inline-block;
+  text-align: center;
 }
 
 @media (min-width: 15em) {
+  /*  ------------------ Menu Bar ------------------*/
+
   .menu-items {
-    padding-left: 9.15rem;
-  }
-
-
-
-  h1,p,img,a,h2,h3,nav{
-    display: none;
-  }
-  #intro{
-    background-color: white;
-  }
-  .coming-soon,.container-menu{
-    display: none;
-  }
-  #mobile-error{
-    display: flex;
-    justify-content: center;
-    margin-top: 50%;
-    opacity: 100;
-  }
-
-}
-
-@media (min-width: 23.5em) {
-  .menu-items {
+    width: 100%;
     padding-left: 0.15rem;
   }
 
   .container-menu{
-    display: flex;
+    height: fit-content;
   }
 
-  h1,p,img,a,h2,h3,nav{
-    display: none;
+  #logo{
+    padding-left: 0rem;
   }
+
+  /*  ------------------ Intro ------------------*/
   #intro{
-    background-color: white;
-  }
-  .coming-soon,.container-menu{
-    display: none;
-  }
-  #mobile-error{
-    display: flex;
-    justify-content: center;
-    margin-top: 50%;
-    opacity: 100;
-  }
-
-}
-
-@media (min-width:45em) {
-  .menu-items {
-    padding-left: 21%;
-  }
-
-  #intro{
-    padding: 1rem 5rem 20rem 5rem;
+    margin-top: 15rem;
   }
 
   #intro p {
-    left: 21.75rem;
+    position: relative;
+    text-align: center;
+    left:-13%;
+    top:10rem;
+    width: 100%;
+    white-space: nowrap
   }
-  #mobile-error{
-    display: none;
+
+
+  #intro #intro-sub-cap{
+    left: 13%;
+  }
+
+  /*  ------------------ Clue SOS ------------------*/
+  #clue-intro{
+    margin-top: 10rem;
+  }
+  .regular-para{
+    padding:0rem 0.55rem 4rem 0.55rem;
+  }
+  #clue-intro h1 {
+    margin-left: 0.55rem;
+  }
+  .line-heading{
+    margin-left: 0.55rem;
+    padding-right: 0.55rem;
+
+  }
+
+  #process h2, #process h3 #process p{
+    margin-left: 1rem;
+  }
+  #clue-intro .block-it{
+    padding-top: 17rem;
+  }
+
+  .line-centre-focus{
+    width: 100vw;
+    text-align: center;
+    margin: 2rem 0rem 7rem 0rem;
+  }
+
+  #clue-personas img {
+    display: flex;
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 95%;
+  }
+
+  img[src*="clue-persona-3"]{
+    width: 95%;
+  }
+
+  #process h2, #process h3{
+    margin-left: 0.55rem;
+  }
+
+
+
+}
+
+@media (min-width: 23.5em) {
+  /*  ------------------ Menu Bar ------------------*/
+
+  .menu-items {
+    width: 100%;
+    padding-left: 0.15rem;
   }
 
   .container-menu{
-    display: flex;
+    height: fit-content;
   }
 
-  .coming-soon,nav,img{
-    display: block;
+  #logo{
+    padding-left: 0rem;
   }
 
-  p,h1,h2,h3{
-    display: inherit;
-  }
-
-  a{
-    display: inline;
-  }
-  footer a{
-    display: block;
-  }
+  /*  ------------------ Intro ------------------*/
   #intro{
-    background-color: #65be71;
+    margin-top: 15.5rem;
   }
-  #clue-personas img{
-    display: inline;
+  #intro p {
+    left:-3%;
   }
+  #intro #intro-sub-cap{
+    left: 21%;
+  }
+
+  /*  ------------------ Bio ------------------*/
+
+  #bio{
+    padding: 0rem 3rem 10rem 3rem;
+    display: block;
+  }
+
+  #bio img{
+    display: block;
+    margin: auto;
+    padding: 3rem 0rem 3rem 0rem;
+    width: 45%;
+  }
+
+  /*  ------------------ Clue ------------------*/
+
+  #clue-intro{
+    margin-top: 10.5rem;
+  }
+  .regular-para{
+    padding:0rem 2rem 4rem 2rem;
+  }
+
+  #clue-intro h1 {
+    margin-left: 2rem;
+  }
+  .line-heading{
+    margin-left: 2rem;
+    padding-right: 5rem;
+  }
+
+  #process h2, #process h3{
+    margin-left: 2rem;
+  }
+  #clue-intro .block-it{
+    padding-top: 17rem;
+  }
+
+  .line-centre-focus{
+    width: 100vw;
+    text-align: center;
+    margin: 2rem 0rem 7rem 0rem;
+  }
+
+  #clue-personas img {
+    display: flex;
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 80%;
+  }
+
+  img[src*="clue-persona-3"]{
+    width: 80%;
+  }
+}
+
+
+@media (min-width:45em) {
+  .menu-items {
+    padding-left: 18%;
+    width: fit-content;
+
+  }
+  .container-menu{
+    height: 3.2rem;
+  }
+
+  /*  ------------------ Intro ------------------*/
+  #intro{
+    margin-top: 5.25rem;
+    padding: 1rem 5rem 20rem 5rem;
+
+  }
+
+  #intro p {
+    left: 30%;
+  }
+
+  #intro #intro-sub-cap{
+    left: 68%;
+  }
+
+  /*  ------------------ Bio ------------------*/
+
+  #bio{
+    display: flex;
+    padding: 7rem 1rem 10rem 1rem;
+  }
+  /*  ------------------ Clue ------------------*/
+
+  #clue-intro{
+    margin-top: 0rem;
+  }
+  .regular-para{
+    padding:0rem 4rem 4rem 4rem;
+  }
+
+  #clue-intro h1 {
+    margin-left: 4rem;
+  }
+  .line-heading{
+    margin-left: 4rem;
+    padding-right: 5rem;
+  }
+
+  #process h2, #process h3{
+    margin-left: 4rem;
+  }
+  #clue-intro .block-it{
+    padding-top: 12rem;
+  }
+
+  .line-centre-focus{
+    width: 100vw;
+    text-align: center;
+    margin: 2rem 0rem 7rem 0rem;
+  }
+
+  #clue-personas img {
+    display: flex;
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 80%;
+  }
+
+  img[src*="clue-persona-3"]{
+    width: 80%;
+  }
+
 }
 
 
 
 @media (min-width:50.25em) {
   .menu-items {
-    padding-left: 36%;
+    padding-left: 25%;
+    width: fit-content;
+
   }
+  .container-menu{
+    height: 3.2rem;
+  }
+  /*  ------------------ Intro ------------------*/
 
   #intro{
     padding: 1rem 5rem 20rem 5rem;
   }
 
   #intro p {
-    left: 30.75rem;
-  }
-  #mobile-error{
-    display: none;
+    width: fit-content;
+    left: 62%;
   }
 
-  .container-menu{
+  #intro #intro-sub-cap{
+    left: 68%;
+  }
+
+  /*  ------------------ Bio ------------------*/
+
+  #bio{
+    padding: 7rem 3rem 10rem 3rem;
     display: flex;
   }
 
-  .coming-soon,nav,img{
-    display: block;
+  /*  ------------------ Clue SOS ------------------*/
+  #clue-intro{
+    margin-top: 0rem;
+  }
+  .regular-para{
+    padding:0rem 6rem 4rem 6rem;
   }
 
-  p,h1,h2,h3{
-    display: inherit;
+  #clue-intro h1 {
+    margin-left: 6rem;
+  }
+  .line-heading{
+    margin-left: 6rem;
+    padding-right: 16rem;
+
   }
 
-  a{
+  .line-centre-focus{
+    width: 100vw;
+    text-align: center;
+    margin: 2rem 0rem 7rem 0rem;
+    padding-right: 0rem;
+  }
+
+  #process h2, #process h3{
+    margin-left: 6rem;
+  }
+
+  #clue-personas img {
     display: inline;
+    width: 46%;
   }
-  footer a{
-    display: block;
-  }
-  #intro{
-    background-color: #65be71;
-  }
-  #clue-personas img{
-    display: inline;
+
+  img[src*="clue-persona-3"]{
+    width: 55%;
   }
 }
 
 @media (min-width:57.25em) {
   .menu-items {
-    padding-left: 32%;
-  }
+    padding-left: 31%;
+    width: fit-content;
 
-  #mobile-error{
-    display: none;
   }
-
   .container-menu{
+    height: 3.2rem;
+  }
+
+  /*  ------------------ Bio ------------------*/
+
+  #bio{
+    padding: 7rem 4rem 10rem 4rem;
     display: flex;
   }
 
-  .coming-soon,nav,img{
-    display: block;
+  /*  ------------------ Clue SOS ------------------*/
+  #clue-intro{
+    margin-top: 0rem;
+  }
+  .regular-para{
+    padding:0rem 8rem 4rem 8rem;
+  }
+  #clue-intro h1 {
+    margin-left: 8rem;
+  }
+  .line-heading{
+    margin-left: 8rem;
+    padding-right: 25rem;
+
+  }
+  #process h2, #process h3{
+    margin-left: 8rem;
   }
 
-  p,h1,h2,h3{
-    display: inherit;
+  .line-centre-focus{
+    width: 100vw;
+    text-align: center;
+    margin: 2rem 0rem 5rem 0rem;
+    padding-right: 0rem;
+
+  }
+  #clue-personas img {
+    display: inline;
+    width: 43%;
+
+  }
+  img[src*="clue-persona-3"]{
+    width: 55%;
   }
 
-  a{
-    display: inline;
-  }
-  footer a{
-    display: block;
-  }
-  #intro{
-    background-color: #65be71;
-  }
-  #clue-personas img{
-    display: inline;
-  }
+
+
+
+
+
 }
 
-@media (min-width:79.00em) {
+@media (min-width:79em) {
   .menu-items {
-    padding-left: 42%;
+    padding-left: 38.5%;
+    width: fit-content;
+
   }
+  .container-menu{
+    height: 3.2rem;
+  }
+
+  /*  ------------------ Intro ------------------*/
+
   #intro{
     padding: 0rem 5rem 20rem 5rem;
   }
-  .container-menu{
+
+  #intro p {
+    width: fit-content;
+    left: 40.75rem;
+  }
+
+  #intro #intro-sub-cap {
+    left: 45rem;
+  }
+
+  /*  ------------------ Bio ------------------*/
+
+  #bio{
     display: flex;
+    padding:10rem 10rem 10rem 10rem;
+
   }
 
-  .coming-soon,nav,img{
-    display: block;
+
+  /*  ------------------ Clue SOS ------------------*/
+  #clue-intro{
+    margin-top: 0rem;
+  }
+  .regular-para{
+    padding:0rem 12rem 4rem 12rem;
+  }
+  #clue-intro h1 {
+    margin-left: 12rem;
+  }
+  .line-heading{
+    margin-left: 12rem;
+    padding-right: 25rem;
+
   }
 
-  p,h1,h2,h3{
-    display: inherit;
+  #process h2, #process h3{
+    margin-left: 12rem;
   }
+  .line-centre-focus{
+    width: 100vw;
+    text-align: center;
+    margin: 2rem 0rem 7rem 0rem;
+    padding-right: 0rem;
 
-  a{
+  }
+  #clue-personas img {
     display: inline;
+    width: 43%;
+
   }
-  footer a{
-    display: block;
+  img[src*="clue-persona-3"]{
+    width: 55%;
   }
-  #intro{
-    background-color: #65be71;
+
+  #bio img{
+    width: 37%;
+    padding-right: 5rem;
+    padding-top: 1rem;
   }
-  #mobile-error{
-    display: none;
-  }
-  #clue-personas img{
-    display: inline;
-  }
+
+
+
+
 }
 @media (min-width:85.37em) {
   .menu-items {
     padding-left: 45%;
+    width: fit-content;
   }
+
   .container-menu{
+    height: 3.2rem;
+  }
+
+  /*  ------------------ Bio ------------------*/
+
+  #bio{
     display: flex;
+    padding:10rem 10rem 10rem 10rem;
   }
 
-  .coming-soon,nav,img{
-    display: block;
+  /*  ------------------ Clue SOS ------------------*/
+  #clue-intro{
+    margin-top: 0rem;
+  }
+  .regular-para{
+    padding:0rem 12rem 4rem 12rem;
+  }
+  #clue-intro h1 {
+    margin-left: 12rem;
+  }
+  .line-heading{
+    margin-left: 12rem;
+
   }
 
-  p,h1,h2,h3{
-    display: inherit;
+  #process h2, #process h3{
+    margin-left: 12rem;
   }
-  a{
+  .line-centre-focus{
+    width: 100vw;
+    text-align: center;
+    margin: 2rem 0rem 5rem 0rem;
+    padding-right: 0rem;
+
+  }
+
+  #clue-personas img {
     display: inline;
-  }
-  footer a{
-    display: block;
-  }
+    width: 43%;
 
-  #intro{
-    background-color: #65be71;
   }
-  #mobile-error{
-    display: none;
-  }
-
-  #clue-personas img{
-    display: inline;
+  img[src*="clue-persona-3"]{
+    width: 55%;
   }
 }
