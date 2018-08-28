@@ -262,6 +262,7 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
     width: 100vw;
     text-align: center;
     margin: 2rem 0rem 7rem 0rem;
+    padding-right: 0rem;
   }
 
   #clue-personas img {
@@ -352,6 +353,8 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
     width: 100vw;
     text-align: center;
     margin: 2rem 0rem 7rem 0rem;
+    padding-right: 0rem;
+
   }
 
   #clue-personas img {
