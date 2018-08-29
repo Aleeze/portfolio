@@ -238,6 +238,10 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
   #clue-intro{
     margin-top: 10rem;
   }
+
+  #clue-intro .block-it,#nota-intro .block-it{
+    padding: 19rem 0.99rem 0rem 0.99rem;
+  }
   .regular-para{
     padding:0rem 0.55rem 4rem 0.55rem;
   }
@@ -390,7 +394,7 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
   }
 
   #clue-intro .block-it,#nota-intro .block-it{
-    padding: 19rem 1.99rem 0rem 1.99rem;
+    padding: 19rem 0.99rem 0rem 0.99rem;
   }
 }
 
@@ -458,6 +462,8 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
   #clue-intro{
     margin-top: 0rem;
   }
+
+
   .regular-para{
     padding:0rem 4rem 4rem 4rem;
   }
@@ -673,6 +679,9 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
   #clue-intro{
     margin-top: 0rem;
   }
+  #clue-intro .block-it,#nota-intro .block-it{
+    padding: 11rem 7.99rem 0rem 1.99rem;
+  }
   .regular-para{
     padding:0rem 12rem 4rem 12rem;
   }
@@ -732,8 +741,12 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
   }
 
   /*  ------------------ Clue SOS ------------------*/
+
   #clue-intro{
     margin-top: 0rem;
+  }
+  #clue-intro .block-it,#nota-intro .block-it{
+    padding: 11rem 7.99rem 0rem 1.99rem;
   }
   .regular-para{
     padding:0rem 12rem 4rem 12rem;

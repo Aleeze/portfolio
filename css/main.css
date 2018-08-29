@@ -292,6 +292,7 @@ img[src*="send-SOS-single"],img[src*="send-SOS-multiple"]{
 
 
 
+
 /* ----------------------- Footer ---------------------------- */
 
 footer {
@@ -416,6 +417,9 @@ img[src*="nota-banner"]{
 
 
   /*  ------------------ Clue SOS ------------------*/
+  .team-names p{
+    margin-bottom: 0.25rem;
+  }
 
   .qoute{
     margin: 1rem;
@@ -459,6 +463,9 @@ img[src*="nota-banner"]{
   }
 
   /*  ------------------ Clue SOS ------------------*/
+  .team-names p{
+    margin-bottom: 0.25rem;
+  }
 
   .qoute{
     top: 58.5%;
@@ -476,6 +483,10 @@ img[src*="nota-banner"]{
   #intro {
     background-position: 7% 50%;
   }
+  .team-names p{
+    margin-bottom: 0.25rem;
+  }
+
 
 }
 
@@ -501,6 +512,9 @@ img[src*="nota-banner"]{
   }
 
   /*  ------------------ Clue SOS ------------------*/
+  .team-names p{
+    margin-bottom: 0.25rem;
+  }
 
   .qoute{
     top: 40.5%;
@@ -543,6 +557,9 @@ img[src*="nota-banner"]{
   }
 
   /*  ------------------ Clue SOS ------------------*/
+  .team-names p{
+    margin-bottom: 0.25rem;
+  }
 
   .qoute{
     margin-right: 30rem;
@@ -569,6 +586,9 @@ img[src*="nota-banner"]{
   }
 
   /*  ------------------ Clue SOS ------------------*/
+  .team-names p{
+    margin-bottom: 0.25rem;
+  }
 
   .qoute{
     margin-right: 38rem;
@@ -615,15 +635,10 @@ img[src*="nota-banner"]{
     margin-right: 52rem;
     top: 56%;
   }
-
-  img[src*="flower"]{
-    position: absolute;
-    top:-7rem;
-    bottom: 10rem;
-    left: -16rem;
-    width: 105%;
-    height: 105%
+  .team-names p{
+    margin-bottom: 0.25rem;
   }
+
   footer a{
     width: 4.5%;
   }
@@ -673,6 +688,10 @@ img[src*="nota-banner"]{
     line-height: 2.25rem;
   }
 
+  .team-names p{
+    margin-bottom: 0.25rem;
+  }
+
   .line-heading{
     font-family: 'Merriweather', serif;
     font-weight:400;
@@ -695,6 +714,8 @@ img[src*="nota-banner"]{
     padding-right: 0rem;
     margin-left: 0rem;
   }
+
+
 
 
 
