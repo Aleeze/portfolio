@@ -407,7 +407,8 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
     top:25vh;
   }
   #intro #intro-sub-cap{
-    left: 28%;
+    left: 0rem;
+    margin: auto;
     top: 30vh;
     font-weight: 400;
     background-color: white;
@@ -416,6 +417,7 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
   }
 
 }
+
 @media (min-width:45em) {
   .menu-items {
     padding-left: 18%;
@@ -439,7 +441,7 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
   }
 
   #intro #intro-sub-cap{
-    left: 64.5%;
+    left: 25.5%;
     font-weight: lighter;
     background-color: #65BE71;
     color: white;
@@ -517,7 +519,7 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
   }
 
   #intro #intro-sub-cap{
-    left: 68%;
+    left: 27.5%;
   }
 
   /*  ------------------ Bio ------------------*/
@@ -656,7 +658,7 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
   }
 
   #intro #intro-sub-cap {
-    left: 49.5rem;
+    left: 14.5rem;
   }
 
   /*  ------------------ Bio ------------------*/
