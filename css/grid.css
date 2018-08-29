@@ -89,8 +89,6 @@ nav{
   display: flex;
   flex-wrap:wrap;
   align-items: center;
-  justify-content: flex-end
-  align-self:flex-end;
   padding-left:37.15rem;
   height: -webkit-fit-content;
 }
@@ -411,7 +409,7 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
 @media (min-width:45em) {
   .menu-items {
     padding-left: 18%;
-    width: -webkitfit-content;
+    width: -webkit-fit-content;
 
   }
   .container-menu{
