@@ -304,7 +304,7 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
   }
 
   .container-menu{
-    height: -webkit-fit-content;
+    height: 14.99rem;
   }
 
   #logo{
@@ -312,8 +312,14 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
   }
 
   /*  ------------------ Intro ------------------*/
-  #intro{
+  #intro {
+    background-position: 12% 50%;
     margin-top: 15.5rem;
+  }
+  #intro{
+    background-position: 12% 50%;
+
+    margin-top: 17rem;
   }
   #intro p {
     left:0%;
@@ -391,14 +397,19 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
 
 @media (min-width:25.6em) {
   #intro {
-    background-position: 7% 50%;
+    background-position: 22% -6%;
+    margin-top: 17rem;
+    background-repeat: no-repeat;
+    /* background-size: 176%; */
   }
 
   #intro p {
     left:0%;
+    top:25vh;
   }
   #intro #intro-sub-cap{
-    left: 38%;
+    left: 36%;
+    top: 30vh;
     font-weight: 400;
     background-color: white;
     color: #65BE71;
@@ -418,8 +429,10 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
 
   /*  ------------------ Intro ------------------*/
   #intro{
-    margin-top: 5.25rem;
-
+    margin-top: 3.25rem;
+    background-position: 42% 50%;
+    background-repeat: no-repeat;
+    background-size: 67.5rem;
   }
 
   #intro p {
@@ -427,7 +440,7 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
   }
 
   #intro #intro-sub-cap{
-    left: 68%;
+    left: 64.5%;
     font-weight: lighter;
     background-color: #65BE71;
     color: white;
@@ -496,6 +509,9 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
   }
   /*  ------------------ Intro ------------------*/
 
+  #intro {
+    background-position: 28% 1.95rem;
+  }
   #intro p {
     width: -webkit-fit-content;
     left: 62%;
@@ -560,6 +576,14 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
     height: 3.2rem;
   }
 
+  /*  ------------------ Intro ------------------*/
+  #intro{
+    margin-top: 2.95rem;
+    background-position: 25% 50%;
+    background-repeat: no-repeat;
+    background-size: 65rem;
+  }
+
   /*  ------------------ Bio ------------------*/
 
   #bio{
@@ -621,7 +645,12 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
 
   /*  ------------------ Intro ------------------*/
 
-
+  #intro{
+    margin-top: 5.25rem;
+    background-position: 42% 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
   #intro p {
     width: -webkit-fit-content;
     left: 45.75rem;
