@@ -400,7 +400,6 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
     background-position: 22% -6%;
     margin-top: 17rem;
     background-repeat: no-repeat;
-    /* background-size: 176%; */
   }
 
   #intro p {
@@ -408,7 +407,7 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
     top:25vh;
   }
   #intro #intro-sub-cap{
-    left: 36%;
+    left: 28%;
     top: 30vh;
     font-weight: 400;
     background-color: white;
