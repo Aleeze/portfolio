@@ -9,7 +9,7 @@ body{
 p{
   font-family: 'Roboto', sans-serif;
   color:#000000;
-  height: fit-content;
+  height: -webkit-fit-content;
   margin: 0rem 0rem 1rem 0rem;
   font-size: 1.1rem;
   font-weight:200;
@@ -40,7 +40,7 @@ h2{
   font-family: 'Merriweather', serif;
   font-weight:400;
   font-size: 1.1rem;
-  height: fit-content;
+  height: -webkit-fit-content;
   margin: 0rem 0rem 1.25rem 0rem;
   text-align:left;
   letter-spacing: 0.1rem;
@@ -51,7 +51,7 @@ h3{
   font-family: 'Merriweather', serif;
   font-weight:400;
   font-size: 1.1rem;
-  height: fit-content;
+  height: ;
   margin: 0rem 0rem 1.25rem 0rem;
   text-align:left;
   letter-spacing: 0.1rem;
@@ -92,7 +92,7 @@ nav a{
 figcaption{
   font-family: 'Merriweather', serif;
   color: black;
-  height: fit-content;
+  height: -webkit-fit-content;
   margin: 0rem 0rem 1rem 0rem;
   font-size: 0.85rem;
   font-weight:200;
@@ -105,7 +105,7 @@ figcaption{
 
 .sub-caption {
   font-family: Roboto;
-  height: fit-content;
+  height: ;
   margin: 0rem 0rem 1rem 0rem;
   font-size: 0.77rem;
   font-weight:200;
@@ -183,7 +183,8 @@ nav a:hover, nav a:active, nav a:focus{
 }
 #intro{
   display:block;
-  background-color: #65be71;
+  background-image: url("../img/back-drop.svg");
+  padding-bottom: 21rem;
 }
 
 #sis{
@@ -204,10 +205,10 @@ nav a:hover, nav a:active, nav a:focus{
 #intro #intro-sub-cap{
   top:12rem;
   margin-left: 0rem;
-  width: fit-content;
+  width: -webkit-fit-content;
   right:-14rem;
   font-family: Roboto;
-  height: fit-content;
+  height: -webkit-fit-content;
   font-size: 1.25rem;
   font-weight:200;
   letter-spacing: 0.1rem;
@@ -332,7 +333,7 @@ footer a{
 #footer-links a {
   font-family: Roboto;
   color:white;
-  height: fit-content;
+  height: -webkit-fit-content;
   /* margin: 0rem 0rem 1rem 0rem; */
   font-size: 1rem;
   font-weight:200;
@@ -402,19 +403,17 @@ img[src*="nota-banner"]{
   }
 
   .container-menu{
-    height: fit-content;
+    height: -webkit-fit-content;
   }
+
 
   /*  ------------------ Intro ------------------*/
+  #intro {
+    background-position: 24% 50%;
 
-  img[src*="flower"]{
-    position: absolute;
-    top:3rem;
-    bottom: 10rem;
-    left: 0rem;
-    width: 100%;
-    height: 100%
   }
+
+
 
   /*  ------------------ Clue SOS ------------------*/
 
@@ -436,6 +435,10 @@ img[src*="nota-banner"]{
 }
 
 @media (min-width: 23.5em) {
+  /*  ------------------ Intro ------------------*/
+  #intro {
+    background-position: 22% 50%;
+  }
   /*  ------------------ Fixer ------------------*/
   .block-it p{
     margin: 0rem 0rem 1rem 0rem;
@@ -452,7 +455,7 @@ img[src*="nota-banner"]{
   }
 
   .container-menu{
-    height: fit-content;
+    height: -webkit-fit-content;
   }
 
   /*  ------------------ Clue SOS ------------------*/
@@ -469,7 +472,18 @@ img[src*="nota-banner"]{
   }
 }
 
+@media (min-width:25.6em) {
+  #intro {
+    background-position: 7% 50%;
+  }
+
+}
+
 @media (min-width:45em) {
+  /*  ------------------ Intro ------------------*/
+  #intro {
+    background-position: 20% 50%;
+  }
   /*  ------------------ Fixer ------------------*/
   .block-it p{
     margin: 0rem 0rem 1rem 0rem;
@@ -484,14 +498,6 @@ img[src*="nota-banner"]{
   #logo{
     width: 9rem;
     text-align: left;
-  }
-
-  img[src*="flower"]{
-    position: absolute;
-    top:0rem;
-    left: -8rem;
-    width: 80%;
-    height: 80%;
   }
 
   /*  ------------------ Clue SOS ------------------*/
@@ -516,6 +522,11 @@ img[src*="nota-banner"]{
 
 @media (min-width:50.25em) {
   /*  ------------------ Fixer ------------------*/
+  #intro {
+    background-position: 24% 50%;
+  }
+
+  /*  ------------------ Fixer ------------------*/
   .block-it p{
     margin: 0rem 0rem 1rem 0rem;
   }
@@ -531,13 +542,6 @@ img[src*="nota-banner"]{
     text-align: left;
   }
 
-  img[src*="flower"]{
-    position: absolute;
-    top:-3rem;
-    left: -14rem;
-    width: 100%;
-    height: 100%
-  }
   /*  ------------------ Clue SOS ------------------*/
 
   .qoute{
@@ -590,6 +594,8 @@ img[src*="nota-banner"]{
   #team-names .block-it {
     margin-bottom: 0.25rem;
   }
+
+
   /*  ------------------ Menu Bar ------------------*/
   nav a{
     width: 17%;
@@ -659,7 +665,7 @@ img[src*="nota-banner"]{
   p{
     font-family: 'Roboto', sans-serif;
     color:#000000;
-    height: fit-content;
+    height: -webkit-fit-content;
     margin: 0rem 0rem 1rem 0rem;
     font-size: 1.25rem;
     font-weight:200;

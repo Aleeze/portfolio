@@ -1,4 +1,3 @@
-
 /*  -------------------------------------------- GRID ------------------------------------*/
 
 .two-colums{
@@ -93,14 +92,13 @@ nav{
   justify-content: flex-end
   align-self:flex-end;
   padding-left:37.15rem;
-  height: fit-content;
+  height: -webkit-fit-content;
 }
 
 /*  -------------------------------------------- Intro ------------------------------------*/
 
 #intro{
   margin-top: 5rem;
-  padding: 0rem 5rem 19rem 5rem;
 }
 #intro p {
   position: relative;
@@ -209,7 +207,7 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
   }
 
   .container-menu{
-    height: fit-content;
+    height: -webkit-fit-content;
   }
 
   #logo{
@@ -224,7 +222,7 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
   #intro p {
     position: relative;
     text-align: center;
-    left:-13%;
+    left:0%;
     top:10rem;
     width: 100%;
     white-space: nowrap
@@ -232,7 +230,11 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
 
 
   #intro #intro-sub-cap{
-    left: 13%;
+    left: 26%;
+    font-weight: 400;
+    background-color: white;
+    color: #65BE71;
+    padding: 0.35rem;
   }
 
   /*  ------------------ Clue SOS ------------------*/
@@ -304,7 +306,7 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
   }
 
   .container-menu{
-    height: fit-content;
+    height: -webkit-fit-content;
   }
 
   #logo{
@@ -316,10 +318,14 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
     margin-top: 15.5rem;
   }
   #intro p {
-    left:-3%;
+    left:0%;
   }
   #intro #intro-sub-cap{
-    left: 21%;
+    left: 29%;
+    font-weight: 400;
+    background-color: white;
+    color: #65BE71;
+    padding: 0.35rem;
   }
 
 
@@ -385,11 +391,27 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
   }
 }
 
+@media (min-width:25.6em) {
+  #intro {
+    background-position: 7% 50%;
+  }
 
+  #intro p {
+    left:0%;
+  }
+  #intro #intro-sub-cap{
+    left: 38%;
+    font-weight: 400;
+    background-color: white;
+    color: #65BE71;
+    padding: 0.35rem;
+  }
+
+}
 @media (min-width:45em) {
   .menu-items {
     padding-left: 18%;
-    width: fit-content;
+    width: -webkitfit-content;
 
   }
   .container-menu{
@@ -399,16 +421,19 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
   /*  ------------------ Intro ------------------*/
   #intro{
     margin-top: 5.25rem;
-    padding: 1rem 5rem 20rem 5rem;
 
   }
 
   #intro p {
-    left: 30%;
+    left: 25%;
   }
 
   #intro #intro-sub-cap{
     left: 68%;
+    font-weight: lighter;
+    background-color: #65BE71;
+    color: white;
+    padding: 0.35rem;
   }
 
   /*  ------------------ Bio ------------------*/
@@ -465,7 +490,7 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
 @media (min-width:50.25em) {
   .menu-items {
     padding-left: 25%;
-    width: fit-content;
+    width: -webkit-fit-content;
 
   }
   .container-menu{
@@ -473,12 +498,8 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
   }
   /*  ------------------ Intro ------------------*/
 
-  #intro{
-    padding: 1rem 5rem 20rem 5rem;
-  }
-
   #intro p {
-    width: fit-content;
+    width: -webkit-fit-content;
     left: 62%;
   }
 
@@ -534,7 +555,7 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
 @media (min-width:57.25em) {
   .menu-items {
     padding-left: 31%;
-    width: fit-content;
+    width: -webkit-fit-content;
 
   }
   .container-menu{
@@ -593,7 +614,7 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
 @media (min-width:79em) {
   .menu-items {
     padding-left: 38.5%;
-    width: fit-content;
+    width: -webkit-fit-content;
 
   }
   .container-menu{
@@ -602,17 +623,14 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
 
   /*  ------------------ Intro ------------------*/
 
-  #intro{
-    padding: 0rem 5rem 20rem 5rem;
-  }
 
   #intro p {
-    width: fit-content;
-    left: 40.75rem;
+    width: -webkit-fit-content;
+    left: 45.75rem;
   }
 
   #intro #intro-sub-cap {
-    left: 45rem;
+    left: 49.5rem;
   }
 
   /*  ------------------ Bio ------------------*/
@@ -672,7 +690,7 @@ img[src*="your-cycle-1"], img[src*="analysis"]{
 @media (min-width:85.37em) {
   .menu-items {
     padding-left: 45%;
-    width: fit-content;
+    width: -webkit-fit-content;
   }
 
   .container-menu{
