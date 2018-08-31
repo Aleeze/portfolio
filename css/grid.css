@@ -372,8 +372,8 @@ video {
 
     /*  ------------------ Clue ------------------*/
 
-    #clue-intro{
-      margin-top: 10.5rem;
+    #clue-intro, #nota-intro{
+      margin-top: 11.75rem;
     }
     .regular-para{
       padding:0rem 2rem 4rem 2rem;
