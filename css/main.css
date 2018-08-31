@@ -78,6 +78,10 @@ h3{
   box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.17);
 }
 
+.qoute-with-link{
+  padding: 2rem 2rem 0rem 2rem;
+}
+
 nav a{
   font-family: 'Montserrat', sans-serif;
   font-size: 0.85rem;
@@ -141,11 +145,15 @@ p a{
   margin-left: 0rem;
   text-align: center;
   margin-bottom: 8rem;
-
-
 }
 
-
+.qoute a{
+  display: block;
+  text-align: right;
+  font-size: 0.65rem;
+  text-decoration: underline;
+  padding: 0.6rem 0rem 1rem 0rem;
+}
 
 
 /*  -------------------------------------------- MENU BAR ------------------------------------*/
@@ -685,9 +693,7 @@ img[src*="nota-banner"]{
   #nota-intro .qoute{
     margin-top: -5rem;
   }
-  #nota-intro{
-    margin-top:0rem;
-  }
+
 }
 
 @media (min-width:85.37em) {
