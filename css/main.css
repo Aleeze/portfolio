@@ -47,11 +47,11 @@ h2{
 }
 
 h3{
-  color: #212121e3;
+  color: #212121ab;
   font-family: 'Merriweather', serif;
   font-weight:400;
-  font-size: 1.1rem;
-  height: ;
+  font-size: 1rem;
+  font-weight: 100;
   margin: 0rem 0rem 1.25rem 0rem;
   text-align:left;
   letter-spacing: 0.1rem;
@@ -91,7 +91,6 @@ nav a{
 figcaption{
   font-family: 'Merriweather', serif;
   color: black;
-  height: -webkit-fit-content;
   margin: 0rem 0rem 1rem 0rem;
   font-size: 0.85rem;
   font-weight:200;
@@ -103,8 +102,7 @@ figcaption{
 }
 
 .sub-caption {
-  font-family: Roboto;
-  height: ;
+  font-family: 'Roboto', sans-serif;
   margin: 0rem 0rem 1rem 0rem;
   font-size: 0.77rem;
   font-weight:200;
@@ -146,6 +144,8 @@ p a{
 
 
 }
+
+
 
 
 /*  -------------------------------------------- MENU BAR ------------------------------------*/
@@ -233,18 +233,19 @@ img[src*="flower"]{
 #my-work {
   background-color: white;
 }
-img[src*="clue-logo"]{
+img[src*="clue-logo"],img[src*="nota"]{
   width: 98%;
   margin: 0.75rem;
-
 }
+
+
 
 #my-work figure{
   margin-top: 0rem;
+  width: 27%;
   padding-right: 1.1rem;
   -webkit-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.1);
   -moz-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.1);
-
   box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.1);
 
 }
@@ -289,6 +290,14 @@ img[src*="send-SOS-single"],img[src*="send-SOS-multiple"]{
 }
 
 
+/*  ----------------------------------------- Nota ------------------------------------*/
+#prototype{
+  margin-top: -3rem;
+}
+
+#prototype a{
+  font-weight: 100;
+}
 
 
 
@@ -372,14 +381,12 @@ img[src*="facebook"]{
 
 /*  ----------------------------------------- NOTA ------------------------------------*/
 
-img[src*="nota"]{
-  width: 98.5%;
-  margin: 0.75rem;
-}
-
 img[src*="nota-banner"]{
   width: 100%;
   margin:5rem 0rem 0rem 0rem;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.17);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.17);
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.17);
 }
 
 
