@@ -255,7 +255,7 @@ video {
     }
 
     /*  ------------------ Clue SOS ------------------*/
-    #clue-intro{
+    #clue-intro, #nota-intro{
       margin-top: 10rem;
     }
 
@@ -479,7 +479,7 @@ video {
     }
     /*  ------------------ Clue ------------------*/
 
-    #clue-intro{
+    #clue-intro, #nota-intro{
       margin-top: 0rem;
     }
 
@@ -555,7 +555,7 @@ video {
     }
 
     /*  ------------------ Clue SOS ------------------*/
-    #clue-intro{
+    #clue-intro, #nota-intro{
       margin-top: 0rem;
     }
     .regular-para{
@@ -618,7 +618,7 @@ video {
     }
 
     /*  ------------------ Clue SOS ------------------*/
-    #clue-intro{
+    #clue-intro, #nota-intro{
       margin-top: 0rem;
     }
     .regular-para{
@@ -690,7 +690,7 @@ video {
 
 
     /*  ------------------ Clue SOS ------------------*/
-    #clue-intro{
+    #clue-intro, #nota-intro{
       margin-top: 0rem;
     }
     #clue-intro .block-it,#nota-intro .block-it{
@@ -756,7 +756,7 @@ video {
 
     /*  ------------------ Clue SOS ------------------*/
 
-    #clue-intro{
+    #clue-intro, #nota-intro{
       margin-top: 0rem;
     }
     #clue-intro .block-it,#nota-intro .block-it{
