@@ -420,6 +420,10 @@ img[src*="nota-banner"]{
 
   }
 
+  #my-work figure {
+    width: 60%;
+  }
+
 
 
   /*  ------------------ Clue SOS ------------------*/
@@ -467,6 +471,10 @@ img[src*="nota-banner"]{
     height: -webkit-fit-content;
   }
 
+  #my-work figure {
+    width: 60%;
+  }
+
   /*  ------------------ Clue SOS ------------------*/
   .team-names p{
     margin-bottom: 0.25rem;
@@ -492,6 +500,10 @@ img[src*="nota-banner"]{
     margin-bottom: 0.25rem;
   }
 
+  #my-work figure {
+    width: 60%;
+  }
+
 
 }
 
@@ -499,6 +511,10 @@ img[src*="nota-banner"]{
   /*  ------------------ Intro ------------------*/
   #intro {
     background-position: 20% 50%;
+  }
+
+  #my-work figure {
+    width: 27%;
   }
   /*  ------------------ Fixer ------------------*/
   .block-it p{
@@ -543,6 +559,9 @@ img[src*="nota-banner"]{
   /*  ------------------ Fixer ------------------*/
   #intro {
     background-position: 24% 50%;
+  }
+  #my-work figure {
+    width: 27%;
   }
 
   /*  ------------------ Fixer ------------------*/
@@ -590,6 +609,9 @@ img[src*="nota-banner"]{
   .block-it p{
     margin: 0rem 0rem 1rem 0rem;
   }
+  #my-work figure {
+    width: 27%;
+  }
 
   /*  ------------------ Clue SOS ------------------*/
   .team-names p{
@@ -621,7 +643,9 @@ img[src*="nota-banner"]{
     margin-bottom: 0.25rem;
   }
 
-
+  #my-work figure {
+    width: 27%;
+  }
   /*  ------------------ Menu Bar ------------------*/
   nav a{
     width: 17%;
@@ -669,7 +693,9 @@ img[src*="nota-banner"]{
   .block-it p{
     margin: 0rem 0rem 1rem 0rem;
   }
-
+  #my-work figure {
+    width: 27%;
+  }
   /*  ------------------ Menu Bar ------------------*/
   nav a{
     width: 17%;
