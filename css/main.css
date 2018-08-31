@@ -685,7 +685,9 @@ img[src*="nota-banner"]{
   #nota-intro .qoute{
     margin-top: -5rem;
   }
-
+  #nota-intro{
+    margin-top:0rem;
+  }
 }
 
 @media (min-width:85.37em) {
