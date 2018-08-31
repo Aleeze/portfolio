@@ -390,8 +390,10 @@ img[src*="facebook"]{
 /*  ----------------------------------------- NOTA ------------------------------------*/
 
 img[src*="nota-banner"]{
+  position: relative;
+  top: 5.25rem;
   width: 100%;
-  margin:5rem 0rem 0rem 0rem;
+  margin:0rem 0rem 0rem 0rem;
   -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.17);
   -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.17);
   box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.17);
@@ -594,7 +596,7 @@ img[src*="nota-banner"]{
   }
 
   .qoute{
-    margin-right: 30rem;
+    margin-right: 28rem;
     margin-left: 3rem;
 
   }
@@ -671,7 +673,7 @@ img[src*="nota-banner"]{
   .qoute{
     margin-top: 1rem;
     margin-left: 5rem;
-    margin-right: 52rem;
+    margin-right: 51rem;
   }
   .team-names p{
     margin-bottom: 0.25rem;
@@ -690,9 +692,7 @@ img[src*="nota-banner"]{
 
   }
   /*  ------------------ NOTA ------------------*/
-  #nota-intro .qoute{
-    margin-top: -5rem;
-  }
+
 
 }
 
