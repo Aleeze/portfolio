@@ -52,6 +52,9 @@
 .lil-more-space-bottom{
   margin-bottom: 3rem;
 }
+.less-margin-bottom{
+  margin-bottom: 2rem;
+}
 
 .less-padding-bottom{
   padding: 0rem 12rem 2rem 12rem;

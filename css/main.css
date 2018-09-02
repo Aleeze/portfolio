@@ -297,6 +297,10 @@ img[src*="send-SOS-single"],img[src*="send-SOS-multiple"]{
   width: 70%;
 }
 
+img[src*="nota-flow"]{
+  margin-top: -4rem;
+}
+
 
 /*  ----------------------------------------- Nota ------------------------------------*/
 #prototype{
@@ -692,8 +696,9 @@ img[src*="nota-banner"]{
 
   }
   /*  ------------------ NOTA ------------------*/
-
-
+  .zoom{
+    zoom:67%
+  }
 }
 
 @media (min-width:85.37em) {
