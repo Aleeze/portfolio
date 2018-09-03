@@ -176,6 +176,16 @@ nav a:hover, nav a:active, nav a:focus{
   white-space: nowrap;
 }
 
+.project-end-links a {
+  color:#3da295
+}
+
+.project-end-links a:hover {
+  -webkit-transition: color 0.2s;
+  color: #4c4c4c;
+  white-space: nowrap;
+}
+
 
 /*  ----------------------------------------- HOME ------------------------------------*/
 /*  ------------------------- Intro ------------------------*/
