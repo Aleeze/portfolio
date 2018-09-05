@@ -820,6 +820,9 @@ video {
     .regular-para-with-imgs{
       padding: 0rem 12rem 4rem 12rem;
     }
+    .side-by-side-2 img{
+      margin-left:15%;
+    }
 
     .side-by-side-3 p{
       width: 82%;
