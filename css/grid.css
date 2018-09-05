@@ -35,6 +35,11 @@
   margin: auto;
 }
 
+.flex-column-centered{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .center-flex{
   display: flex;
   justify-content: center;
@@ -47,6 +52,10 @@
 
 .more-space-bottom{
   margin-bottom: 5rem;
+}
+
+.alot-more-space-bottom{
+    margin-bottom: 11rem;
 }
 
 .lil-more-space-bottom{
@@ -82,10 +91,35 @@
 video {
   display: block;
   margin: auto;
+}
 
+.side-by-side-3, .side-by-side-2{
+  display: flex;
+  margin-bottom: 11rem;
+}
+
+.side-by-side-3 .two-img img{
+  width: 27%;
 }
 
 
+.side-by-side-3 p{
+  width: 82%;
+}
+
+
+.side-by-side-2 p{
+  width: 27rem;
+}
+.side-by-side-2 img{
+  width: 40%;
+  margin-left: 15%;
+
+}
+
+.side-by-side-2 .center-flex{
+  justify-content: flex-start;
+}
 
 
 
@@ -198,7 +232,11 @@ video {
     padding: 0rem 12rem 4rem 12rem;
   }
 
-  img[src*="your-cycle-1"], img[src*="analysis"]{
+  .regular-para-with-imgs{
+    padding: 0rem 12rem 4rem 12rem;
+  }
+
+  .two-img img[src*="your-cycle-1"], .two-img img[src*="analysis"], .three-img img[src*="analysis"], .three-img img[src*="your-cycle-1"]{
     margin-right: 1rem;
   }
 
@@ -271,6 +309,18 @@ video {
     }
     .regular-para{
       padding:0rem 0.55rem 4rem 0.55rem;
+    }
+    .side-by-side-2, .side-by-side-3{
+      flex-wrap: wrap;
+    }
+    .side-by-side-3 p, .side-by-side-2 p{
+      margin-left: 0.55rem;
+    }
+    .side-by-side-3 p{
+      width: 82%;
+    }
+    .side-by-side-2 img{
+      margin:auto;
     }
     #clue-intro h1 {
       margin-left: 0.55rem;
@@ -385,7 +435,18 @@ video {
     .regular-para{
       padding:0rem 2rem 4rem 2rem;
     }
-
+    .side-by-side-2, .side-by-side-3{
+      flex-wrap: wrap;
+    }
+    .side-by-side-3 p, .side-by-side-2 p{
+      margin-left: 2rem;
+    }
+    .side-by-side-3 p{
+      width: 82%;
+    }
+    .side-by-side-2 img{
+      margin:auto;
+    }
     #clue-intro h1 {
       margin-left: 2rem;
     }
@@ -445,6 +506,9 @@ video {
       color: #65BE71;
       padding: 0.35rem;
     }
+    .side-by-side-2 img{
+      margin:auto;
+    }
 
   }
 
@@ -490,10 +554,26 @@ video {
       margin-top: 0rem;
     }
 
-
+    .side-by-side-2, .side-by-side-3{
+      flex-wrap: wrap;
+    }
     .regular-para{
       padding:0rem 4rem 4rem 4rem;
     }
+
+    .side-by-side-3 p, .side-by-side-2 p{
+      margin-left: 4rem;
+    }
+    .side-by-side-2 p{
+      width: 39rem;
+    }
+    .side-by-side-3 h3{
+      width: 100%;
+    }
+    .side-by-side-2 img{
+      margin:auto;
+    }
+
 
     #clue-intro h1 {
       margin-left: 4rem;
@@ -568,6 +648,21 @@ video {
     .regular-para{
       padding:0rem 6rem 4rem 6rem;
     }
+    .side-by-side-2, .side-by-side-3{
+      flex-wrap: nowrap;
+    }
+
+    .side-by-side-3 p, .side-by-side-2 p{
+      margin-left: 6rem;
+    }
+
+    .side-by-side-3 p{
+      width: 82%;
+    }
+
+    .side-by-side-2 p{
+      width: 20rem;
+    }
 
     #clue-intro h1 {
       margin-left: 6rem;
@@ -630,6 +725,19 @@ video {
     }
     .regular-para{
       padding:0rem 8rem 4rem 8rem;
+    }
+    .side-by-side-2, .side-by-side-3{
+      flex-wrap: nowrap;
+    }
+    .side-by-side-3 p, .side-by-side-2 p{
+      margin-left: 8rem;
+    }
+    .side-by-side-3 p{
+      width: 82%;
+    }
+
+    .side-by-side-2 p{
+      width: 27rem;
     }
     #clue-intro h1 {
       margin-left: 8rem;
@@ -706,6 +814,21 @@ video {
     .regular-para{
       padding:0rem 12rem 4rem 12rem;
     }
+    .side-by-side-2, .side-by-side-3{
+      flex-wrap: nowrap;
+    }
+    .regular-para-with-imgs{
+      padding: 0rem 12rem 4rem 12rem;
+    }
+
+    .side-by-side-3 p{
+      width: 82%;
+      margin-left: 12rem;
+    }
+    .side-by-side-2 p{
+      width: 27rem;
+      margin-left: 12rem;
+    }
     #clue-intro h1 {
       margin-left: 12rem;
     }
@@ -772,6 +895,23 @@ video {
     .regular-para{
       padding:0rem 12rem 4rem 12rem;
     }
+    .side-by-side-2, .side-by-side-3{
+      flex-wrap: nowrap;
+    }
+    .regular-para-with-imgs{
+      padding: 0rem 12rem 4rem 12rem;
+    }
+    .side-by-side-3 p{
+      width: 82%;
+    }
+    .side-by-side-2 p{
+      width: 27rem;
+    }
+
+    .side-by-side-2 img{
+      margin-left:15%;
+    }
+
     #clue-intro h1 {
       margin-left: 12rem;
     }
