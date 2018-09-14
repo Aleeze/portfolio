@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+
+}
 body{
   margin: 0rem;
   height: 20rem;
@@ -227,24 +231,26 @@ nav a:hover, nav a:active, nav a:focus{
   text-decoration: none;
   color:black;
 }
+
+img[src*="arrow"]{
+  position: absolute;
+  bottom: 2rem;
+  right: 49%;
+  width: 5%;
+  display: inline;
+  text-align: center;
+}
 #bio p{
   margin-left: 0rem;
   font-size: 1rem;
 }
 
-img[src*="flower"]{
-  position: absolute;
-  top:-6rem;
-  bottom: 10rem;
-  left: -16rem;
-  width: 100%;
-  height: 100%
-}
 
 /*  ----------------------- My Work ----------------------------*/
 #my-work {
   background-color: white;
 }
+
 img[src*="clue-logo"],img[src*="nota"]{
   width: 98%;
   margin: 0.75rem;
