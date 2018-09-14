@@ -200,7 +200,7 @@ nav a:hover, nav a:active, nav a:focus{
 }
 #intro{
   display:block;
-  background-image: url("../img/back-drop.svg");
+  background-image: url("../img/flower2.svg");
   padding-bottom: 21rem;
 }
 
@@ -210,27 +210,22 @@ nav a:hover, nav a:active, nav a:focus{
   justify-content: center;
 }
 #emphasis p {
-  right:-14rem;
-  color:white;
-  font-family: 'Oswald', sans-serif;
-  font-size: 4.5rem;
-  font-weight:300;
-  margin: 0rem;
-  -webkit-transform: scaleY(0.85);
-  transform: scaleY(0.85);
+  margin: auto;
+  color:#404040;
+  font-family: 'Merriweather', serif;
+  font-size: 2.5rem;
+
 }
 #intro #intro-sub-cap{
-  top:12rem;
-  margin-left: 0rem;
-  width: -webkit-fit-content;
-  right:-14rem;
-  font-family: Roboto;
-  height: -webkit-fit-content;
-  font-size: 1.25rem;
+  margin: 0rem 20% 0rem 20%;
+  padding-top: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.75rem;
   font-weight:200;
   letter-spacing: 0.1rem;
+  line-height: 2.5rem;
   text-decoration: none;
-  color:white;
+  color:black;
 }
 #bio p{
   margin-left: 0rem;

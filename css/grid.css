@@ -86,6 +86,7 @@
   padding-right: 0rem;
   font-size: 1.35rem;
   color: #212121bd;
+  font-weight: 400;
 }
 
 video {
@@ -164,11 +165,8 @@ video {
     margin-top: 5rem;
   }
   #intro p {
-    position: relative;
-    text-align: center;
-    left: 33.75rem;
-    top:10rem;
-    width: 50%;
+
+
   }
 
   #about-me div{
@@ -253,6 +251,11 @@ video {
     text-align: center;
   }
 
+  video[src*="vid/preview.mp4"] {
+    height: 55%;
+    margin: 0rem;
+  }
+
   /*  ------------------------------------------NOTA ----------------------------------*/
   /*  --------------------- intro -----------------*/
 
@@ -277,26 +280,21 @@ video {
     }
 
     /*  ------------------ Intro ------------------*/
-    #intro{
-      margin-top: 15rem;
+    #intro {
+      background-position: 12% 50%;
+      padding-top: 42vh;
+      background-position: 52% 6rem;
+      background-repeat: no-repeat;
+      background-size: 36rem;
     }
 
     #intro p {
-      position: relative;
       text-align: center;
-      left:0%;
-      top:10rem;
-      width: 100%;
-      white-space: nowrap
     }
 
-
     #intro #intro-sub-cap{
-      left: 26%;
-      font-weight: 400;
-      background-color: white;
-      color: #65BE71;
-      padding: 0.35rem;
+      font-size: 1.25rem;
+      line-height: 2rem;
     }
 
     /*  ------------------ Clue SOS ------------------*/
@@ -394,22 +392,15 @@ video {
     /*  ------------------ Intro ------------------*/
     #intro {
       background-position: 12% 50%;
-      margin-top: 15.5rem;
+      padding-top: 42vh;
+      background-position: 42% 6rem;
+      background-repeat: no-repeat;
+      background-size: 36rem;
     }
-    #intro{
-      background-position: 12% 50%;
 
-      margin-top: 17rem;
-    }
     #intro p {
-      left:0%;
     }
     #intro #intro-sub-cap{
-      left: 29%;
-      font-weight: 400;
-      background-color: white;
-      color: #65BE71;
-      padding: 0.35rem;
     }
 
 
@@ -488,23 +479,16 @@ video {
 
   @media (min-width:25.6em) {
     #intro {
-      background-position: 22% -6%;
-      margin-top: 17rem;
+      padding-top: 42vh;
+      background-position: 42% 6rem;
       background-repeat: no-repeat;
+      background-size: 36rem;
     }
 
-    #intro p {
-      left:0%;
-      top:25vh;
-    }
+
     #intro #intro-sub-cap{
-      left: 0rem;
-      margin: auto;
-      top: 30vh;
-      font-weight: 400;
-      background-color: white;
-      color: #65BE71;
-      padding: 0.35rem;
+      /* font-size: 1.25rem;
+      line-height: 2rem; */
     }
     .side-by-side-2 img{
       margin:auto;
@@ -524,22 +508,18 @@ video {
 
     /*  ------------------ Intro ------------------*/
     #intro{
-      margin-top: 3.25rem;
-      background-position: 42% 50%;
+      padding-top: 35vh;
+      background-position: 42% -3rem;
       background-repeat: no-repeat;
-      background-size: 67.5rem;
+      background-size: 46rem;
     }
 
     #intro p {
-      left: 25%;
     }
 
     #intro #intro-sub-cap{
-      left: 25.5%;
-      font-weight: lighter;
-      background-color: #65BE71;
-      color: white;
-      padding: 0.35rem;
+      font-size: 1.75rem;
+      line-height: 2.5rem;
     }
 
     /*  ------------------ Bio ------------------*/
@@ -607,6 +587,10 @@ video {
       width: 80%;
     }
 
+    .squeez{
+      margin: -3rem 5rem 2rem 5rem;
+    }
+
   }
 
 
@@ -623,15 +607,18 @@ video {
     /*  ------------------ Intro ------------------*/
 
     #intro {
-      background-position: 28% 1.95rem;
+      padding-top: 35vh;
+      background-position: 42% -3rem;
+      background-repeat: no-repeat;
+      background-size: 46rem;
     }
     #intro p {
-      width: -webkit-fit-content;
-      left: 62%;
+
     }
 
     #intro #intro-sub-cap{
-      left: 27.5%;
+      font-size: 1.75rem;
+      line-height: 2.5rem;
     }
 
     /*  ------------------ Bio ------------------*/
@@ -706,10 +693,14 @@ video {
 
     /*  ------------------ Intro ------------------*/
     #intro{
-      margin-top: 2.95rem;
-      background-position: 25% 50%;
+      padding-top: 35vh;
+      background-position: 42% -3rem;
       background-repeat: no-repeat;
-      background-size: 65rem;
+      background-size: 46rem;
+    }
+    #intro #intro-sub-cap{
+      font-size: 1.75rem;
+      line-height: 2.5rem;
     }
 
     /*  ------------------ Bio ------------------*/
@@ -781,20 +772,19 @@ video {
     /*  ------------------ Intro ------------------*/
 
     #intro{
-      margin-top: 5.25rem;
-      background-position: 42% 50%;
+      padding-top: 32vh;
+      background-position: 42% 65%;
       background-repeat: no-repeat;
-      background-size: 100%;
+      background-size: 60rem;
     }
     #intro p {
       width: -webkit-fit-content;
-      left: 45.75rem;
     }
 
-    #intro #intro-sub-cap {
-      left: 14.5rem;
+    #intro #intro-sub-cap{
+      font-size: 1.75rem;
+      line-height: 2.5rem;
     }
-
     /*  ------------------ Bio ------------------*/
 
     #bio{
@@ -880,6 +870,12 @@ video {
       height: 3.2rem;
     }
 
+    /*  ------------------ Intro ------------------*/
+
+    #intro #intro-sub-cap{
+      font-size: 1.75rem;
+      line-height: 2.5rem;
+    }
     /*  ------------------ Bio ------------------*/
 
     #bio{
