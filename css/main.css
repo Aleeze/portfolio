@@ -137,7 +137,15 @@ a{
 }
 
 p a{
+  transition-property:color;
+  transition-duration: 0.5s;
   color:#3da295;
+}
+
+p a:hover{
+  transition-property:color;
+  transition-duration: 0.5s;
+  color: #ffa900;
 }
 
 .coming-soon figcaption{
@@ -268,6 +276,44 @@ img[src*="clue-logo"],img[src*="nota"]{
 
 }
 
+
+.img-hover{
+  position: relative;
+}
+.img-hover:hover .overlay-img-link {
+  transition-property: opacity;
+  opacity: 1;
+  transition-duration: 0.3s;
+}
+
+.img-hover-text{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  text-align: center;
+  padding: 6%;
+  padding-top: 32%;
+  padding-bottom: 32%;
+  margin: auto;
+  color: #545454;
+  letter-spacing: 0.055rem;
+}
+.img-hover-text p{
+  align-items: center;
+}
+
+.overlay-img-link{
+  display: flex;
+  position: absolute;
+  bottom: 17%;
+  left: 3.5%;
+  background-color: rgba(255,255,255,0.80);
+  overflow: hidden;
+  width: 102%;
+  height: 80%;
+  opacity:0;
+  transition: .3s ease-in-out;
+}
 
 
 /*  ----------------------------------------- About me------------------------------------*/
@@ -460,6 +506,10 @@ img[src*="facebook"]{
   #copyright {
     font-size: 0.25rem;
   }
+  .img-hover-text{
+
+    font-size:0.6rem;
+  }
 }
 
 @media (min-width: 23.5em) {
@@ -505,6 +555,10 @@ img[src*="facebook"]{
   #copyright {
     font-size: 0.55rem;
   }
+  .img-hover-text{
+
+    font-size:1rem;
+  }
 }
 
 @media (min-width:25.6em) {
@@ -519,7 +573,10 @@ img[src*="facebook"]{
     width: 60%;
   }
 
+  .img-hover-text{
 
+    font-size:1rem;
+  }
 }
 
 @media (min-width:45em) {
@@ -565,7 +622,10 @@ img[src*="facebook"]{
   #copyright {
     font-size: 0.77rem;
   }
+  .img-hover-text{
 
+    font-size: 0.7rem;
+  }
 
 
 }
@@ -616,7 +676,10 @@ img[src*="facebook"]{
 
 
   }
+  .img-hover-text{
 
+    font-size: 0.7rem;
+  }
 }
 
 @media (min-width:57.25em) {
@@ -646,7 +709,10 @@ img[src*="facebook"]{
     margin-left: 0rem;
 
   }
+  .img-hover-text{
 
+    font-size: 1rem;
+  }
 }
 
 @media (min-width:79.00em) {
@@ -696,7 +762,10 @@ img[src*="facebook"]{
     margin-left: 0rem;
 
   }
+  .img-hover-text{
 
+    font-size: 1rem;
+  }
 }
 
 @media (min-width:85.37em) {
@@ -758,6 +827,11 @@ img[src*="facebook"]{
   #my-work .line-heading{
     padding-right: 0rem;
     margin-left: 0rem;
+  }
+
+  .img-hover-text{
+
+    font-size: 1rem;
   }
 
 
