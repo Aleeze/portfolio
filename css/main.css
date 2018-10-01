@@ -43,24 +43,28 @@ h2{
   color: #212121e3;
   font-family: 'Merriweather', serif;
   font-weight:400;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   height: -webkit-fit-content;
   margin: 0rem 0rem 1.25rem 0rem;
   text-align:left;
   letter-spacing: 0.1rem;
 }
-
 h3{
   color: #212121c9;
   font-family: 'Merriweather', serif;
-  font-weight:400;
-  font-size: 1rem;
-  font-weight: 100;
+  font-weight:300;
+  font-size: 1.4rem;
   margin: 0rem 0rem 1.25rem 0rem;
   text-align:left;
   letter-spacing: 0.1rem;
 }
 
+.bold{
+  display: inline;
+  /* font-weight: bold; */
+  color: red;
+  margin-left: 0rem;
+}
 
 .fade{
   color:#21212142;
@@ -113,7 +117,8 @@ figcaption{
   font-family: 'Roboto', sans-serif;
   margin: 0rem 0rem 1rem 0rem;
   font-size: 0.77rem;
-  font-weight:200;
+  font-weight:300;
+  color: #5d5d5d;
   letter-spacing: 0.1rem;
   line-height: 1.7;
   margin-left: 1rem;
@@ -287,16 +292,18 @@ img[src*="clue-logo"],img[src*="nota"]{
 }
 
 .img-hover-text{
+  position: absolute;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 1rem;
   text-align: center;
-  padding: 6%;
-  padding-top: 32%;
-  padding-bottom: 32%;
   margin: auto;
+  top:13rem;
+  width: 18rem;
   color: #545454;
   letter-spacing: 0.055rem;
+  font-size: 1rem;
+  padding: 0rem 2.25rem;
+  margin: auto;
 }
 .img-hover-text p{
   align-items: center;
@@ -305,12 +312,12 @@ img[src*="clue-logo"],img[src*="nota"]{
 .overlay-img-link{
   display: flex;
   position: absolute;
-  bottom: 17%;
-  left: 3.5%;
+  bottom: 3.85rem;
+  left: 0.45rem;
   background-color: rgba(255,255,255,0.80);
   overflow: hidden;
-  width: 102%;
-  height: 80%;
+  width: 29rem;
+  height: 24.5rem;
   opacity:0;
   transition: .3s ease-in-out;
 }
@@ -766,6 +773,8 @@ img[src*="facebook"]{
 
     font-size: 1rem;
   }
+
+
 }
 
 @media (min-width:85.37em) {
@@ -830,7 +839,8 @@ img[src*="facebook"]{
   }
 
   .img-hover-text{
-
+    top:42%;
+    left: 10%;
     font-size: 1rem;
   }
 
