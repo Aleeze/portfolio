@@ -48,6 +48,7 @@ h2{
   margin: 0rem 0rem 1.25rem 0rem;
   text-align:left;
   letter-spacing: 0.1rem;
+  white-space: nowrap;
 }
 h3{
   color: #212121c9;
