@@ -491,11 +491,6 @@ img[src*="facebook"]{
 
   }
 
-  #my-work a {
-    /* width: 60%; */
-  }
-
-
 
   /*  ------------------ Clue SOS ------------------*/
   .team-names p{
@@ -546,9 +541,6 @@ img[src*="facebook"]{
     height: -webkit-fit-content;
   }
 
-  #my-work a {
-    /* width: 60%; */
-  }
 
   /*  ------------------ Clue SOS ------------------*/
   .team-names p{
@@ -579,10 +571,6 @@ img[src*="facebook"]{
     margin-bottom: 0.25rem;
   }
 
-  #my-work a {
-    /* width: 60%; */
-  }
-
   .img-hover-text{
 
     font-size:1rem;
@@ -595,9 +583,6 @@ img[src*="facebook"]{
     background-position: 20% 50%;
   }
 
-  #my-work a {
-    /* width: 27%; */
-  }
   /*  ------------------ Fixer ------------------*/
   .block-it p{
     margin: 0rem 0rem 1rem 0rem;
@@ -644,9 +629,6 @@ img[src*="facebook"]{
   /*  ------------------ Fixer ------------------*/
   #intro {
     background-position: 24% 50%;
-  }
-  #my-work a{
-    /* width: 27%; */
   }
 
   /*  ------------------ Fixer ------------------*/
@@ -697,9 +679,6 @@ img[src*="facebook"]{
   .block-it p{
     margin: 0rem 0rem 1rem 0rem;
   }
-  #my-work a {
-    /* width: 27%; */
-  }
 
   /*  ------------------ Clue SOS ------------------*/
   .team-names p{
@@ -734,9 +713,6 @@ img[src*="facebook"]{
     margin-bottom: 0.25rem;
   }
 
-  #my-work a {
-    /* width: 27%; */
-  }
   /*  ------------------ Menu Bar ------------------*/
   nav a{
     width: 17%;
@@ -785,9 +761,6 @@ img[src*="facebook"]{
   .block-it p{
     margin: 0rem 0rem 1rem 0rem;
   }
-  #my-work a {
-    /* width: 27%; */
-  }
   /*  ------------------ Menu Bar ------------------*/
   nav a{
     width: 17%;
@@ -800,7 +773,7 @@ img[src*="facebook"]{
   }
 
   .qoute{
-    margin-right: 50rem;
+    margin-right: 67%;
   }
 
   p{
