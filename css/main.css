@@ -271,9 +271,15 @@ img[src*="clue-logo"]{
   margin: 0.75rem;
 }
 
-img[src*="nota"]{
-    width: 75rem;
+img[src*="project-logo"]{
+    width: 21rem;
     margin: 0.75rem;
+}
+
+img[src*="nota"]{
+
+  width: 75rem;
+  margin: 0.75rem;
 }
 
 
