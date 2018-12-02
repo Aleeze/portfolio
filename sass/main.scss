@@ -1,0 +1,844 @@
+
+body{
+  margin:0rem;
+}
+
+.img-link{
+  text-decoration: none;
+  margin-top: 0rem;
+}
+
+nav{
+  display: flex;
+  z-index: 1;
+  justify-content: space-between;
+  padding: 0rem 6rem 0rem 6rem;
+  flex-wrap: wrap;
+}
+.main-nav a{
+  color: var(--dark-green);
+  font-size: 1rem;
+  max-width: 35rem;
+  margin: 1.5rem;
+  transition: all 0.4s;
+}
+
+.menu-items{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrap-it{
+  flex-wrap: wrap;
+}
+
+#logo-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 3rem;
+}
+
+#logo-container a{
+  margin: 0rem;
+}
+
+#nav-sg{
+  justify-content: space-between;
+}
+
+.main-nav a:hover, .main-nav a:focus,.main-nav a:active{
+  transition: 0.4s opacity;
+  opacity: 1;
+}
+
+figure{
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+
+figure.no-margin-figure{
+  margin: 0rem;
+}
+
+figure figcaption.image-caption{
+  color: white;
+  position: absolute;
+  bottom: 0.25rem;
+  left: 0rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: -webkit-fill-available;
+  padding: 1rem 0rem 1rem 1rem;
+  font-size: 0.8rem;
+
+}
+/* --------------------------------- Margins ------------------------ */
+
+.page-margin{
+  margin: 0rem 4.5rem;
+}
+
+
+
+/* --------------------------------- Text Gallery ------------------------ */
+
+/* ---------- Basic ----------*/
+
+p, .link-regular{
+  max-width: 47rem;
+  margin: 0.75rem 0rem;
+  margin-bottom: 1.25rem;
+}
+.shorter-length-para{
+  max-width: 30rem;
+}
+.two-text-boxes inline-it-text{
+  max-width: 16rem;
+  margin-right: 2rem;
+}
+
+p{
+  margin-bottom: 2rem;
+}
+h1{
+  font-size: 2rem;
+  margin:3rem 0rem;
+  text-align: center;
+}
+
+h2{
+  font-size: 1.65rem;
+  margin-top: 4.5rem;
+  margin-bottom: 2rem;
+  letter-spacing: 0.04rem;
+  position: relative;
+}
+
+
+h3{
+  font-size: 1.45rem;
+  margin-top: 3rem;
+  margin-bottom: 1.75rem;
+}
+
+h4{
+  font-size: 1.1rem;
+  font-weight:600;
+}
+
+h5{
+  font-size: 1rem;
+  opacity: 0.45;
+  font-weight:600;
+  margin-bottom: 1rem;
+  letter-spacing: 0.04rem;
+}
+
+figcaption{
+  font-weight: 600;
+  display: inline-block;
+}
+
+.sub-caption{
+  font-weight: 300;
+  margin-top: 0.45rem;
+  font-size: 0.9rem;
+}
+
+
+.project-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+#projects .suggestions img{
+  width: 13rem;
+}
+
+#projects .suggestions figure{
+  margin: 2rem;
+}
+.suggestions figure{
+  transition: all 0.4s;
+
+}
+.suggestions figure:hover{
+  transition: all 0.4s;
+  transform: scale(1.05);
+}
+
+/* ----------Modified---------- */
+
+.bold{
+  font-size: 1rem;
+  font-weight: 600;
+  display: inline;
+}
+.italic{
+  font-style: italic;
+  display: inline;
+}
+.focus h3{
+  margin-top: 0rem;
+
+}
+.focus p {
+  margin-bottom: 0rem;
+}
+
+.focus.center-block{
+  margin-top:4rem;
+  margin-bottom: 8rem;
+}
+/* Links */
+
+.link-regular{
+  color:var(--green);
+}
+
+.link-footer{
+  color:var(--wine);
+  font-family: 'Source-Sans-Pro', sans-serif;
+  transition-property: color;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  margin-top: 0rem;
+  margin-left: 0.75rem;
+  letter-spacing: 0.06rem;
+  font-weight: 400;
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+
+/* --------- Text Alignment ------- */
+
+.text-no-wrap{
+  white-space: nowrap;
+}
+.inline-it-text{
+  max-width: 35rem;
+  margin-bottom: 2rem;
+}
+
+.inline-it-text p, .inline-it-text a{
+  display: inline;
+}
+.center-text{
+  text-align: center;
+}
+.right-text{
+  text-align: right;
+  text-decoration: underline;
+}
+
+.widow-fix-inline-text{
+  max-width: 40rem;
+}
+
+p.focus, h2.focus, .focus{
+  text-align: center;
+  margin: 0 auto;
+  margin-top:4rem;
+  margin-bottom:6rem;
+  max-width: 31rem;
+  padding: 3rem 2rem;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: var(--dark-green);
+  border-width: 0.25px;
+  text-align: center;
+}
+
+.h4-margins{
+  margin: 4rem 0rem;
+  max-width: 27rem;
+}
+
+/*Learned From https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_self  */
+/* Image Slides */
+.mySlides {
+  display:none;
+  margin-bottom:1rem;
+}
+
+.mySlides.firstSlide{
+  display: block;
+}
+.w3-left, .w3-right, .w3-badge {
+  cursor:pointer;
+}
+.w3-content.small-gallery{
+  width: 19rem;
+}
+.w3-badge {
+  height:13px;
+  width:13px;
+  padding:0
+}
+.w3-display-container{
+  margin: 3rem 0rem;
+  padding: 0.5rem;
+  position: relative;
+  background-color: #fbfbfb;
+}
+
+.w3-display-left, .w3-display-right{
+  position: absolute;
+  /* border-radius: 2rem; */
+  border-style: none;
+  box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.1);
+  padding: 0.5rem;
+  top:44%;
+  background-color: var(--yellow);
+  color: white;
+  font-size: 1.5rem;
+  transition: all .2s ease-in-out;
+  opacity: 0.6;
+}
+.small-gallery figure{
+  margin: 0rem;
+}
+
+.small-gallery figcaption.image-caption{
+  margin: 0rem;
+  width: 94%;
+  bottom: 0.25rem;
+}
+.small-gallery button{
+  padding: 0.25rem;
+  border-radius: 0rem;
+}
+.w3-display-left:hover,.w3-display-left:active,.w3-display-right:hover,.w3-display-right:active{
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+
+.small-gallery .w3-display-right{
+  right:0.5rem;
+}
+
+.small-gallery .w3-display-left{
+  left:0.5rem;
+}
+
+.w3-display-right{
+  right:1rem;
+}
+
+.w3-display-left{
+  left:1rem;
+}
+
+#workshop-image-gallery{
+  width: 72%;
+}
+
+/* --------------------------------- Object Alignment ------------------------ */
+
+
+.center-block{
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+.project.center-block,.journal.center-block {
+  display: block;
+  width: 77%;
+  margin: auto;
+}
+.project img{
+  width: 100%;
+}
+
+.journal h3{
+  font-size: 1.25rem;
+}
+
+.journal h4{
+  font-size: 1rem;
+  margin-bottom: 0rem;
+  font-weight: 500;
+}
+
+#clue-screens img{
+  width: 50rem;
+  display: block;
+  margin: auto;
+
+}
+.scroll{
+  width: 98%;
+  overflow-x: scroll;
+  margin: auto;
+}
+
+.side-by-side{
+  display: flex;
+}
+
+.total-center-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.top-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.total-center-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.total-left-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.two-text-boxes-h4-margins{
+  margin: 2.5rem 0rem;
+  margin-bottom: 7rem;
+}
+
+.two-text-boxes{
+  margin-bottom: 2rem;
+}
+
+
+.inline-it-text.no-margin-bottom{
+  margin-bottom: 0rem;
+}
+
+.justify-space-between{
+  justify-content: space-between;
+}
+
+
+/* Ensuring that the scrollbar appears when the images are scrollable. Learned from: https://stackoverflow.com/questions/7492062/css-overflow-scroll-always-show-vertical-scroll-bar */
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0,0,0,.5);
+  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+.scroll-bg-color{
+  padding: 2rem;
+}
+
+/* --------------------------------- Combined Elements ------------------------ */
+
+
+/* --------------------------------- Home Page ------------------------ */
+
+.page-margin-home{
+  max-width: 85%;
+  margin: auto;
+}
+.product-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.project-tile{
+  display: inline-block;
+  margin: 0.5rem;
+  width: -webkit-fill-available;
+  transition-property: opacity;
+  transition-duration: 0.4s;
+  box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.1);
+  transition: all .2s ease-in-out;
+}
+
+#projects{
+  padding: 2.5rem 0rem 6rem 0rem;
+
+}
+#projects figure,#projects-sg figure{
+  display: inline-block;
+  padding-bottom: 0.001rem;
+  -webkit-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.1);
+}
+
+
+picture source{
+  width: 60%;
+  margin-top: 2rem;
+}
+
+
+#projects figure img, #projects-sg figure img{
+  margin-bottom: 1.25rem;
+  width: 21rem;
+}
+
+.img-hover-text p{
+  align-items: center;
+}
+
+.img-hover{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.overlay-img-link{
+  position: absolute;
+  background-color: rgba(255,255,255,0.80);
+  overflow: hidden;
+  opacity:0;
+  transition: .3s ease-in-out;
+}
+
+.overlay-img-link p{
+  padding: 2.5rem 1.5rem 1.5rem 1.5rem;
+  color: black;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-top: 3rem;
+}
+
+.fig-padding{
+  padding: 0.85rem;
+}
+
+
+#home-intro{
+  padding: 6rem 2.5rem 9rem 2.5rem;
+
+}
+#nav-intro{
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+
+
+img[src*="my-logo.svg"]{
+  width: 31px;
+  margin: 0.85rem 0rem 0rem 0rem;
+}
+#home-intro p, #home-intro h1{
+  color: var(--dark-green);
+  opacity: 1;
+  text-align: center;
+  margin: auto;
+  max-width: 30rem;
+}
+
+#home-intro p{
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  max-width: 35rem;
+}
+
+#home-intro h1{
+  font-size: 2.5rem;
+  white-space: nowrap;
+}
+img[src*="me.jpg"]{
+  box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.05);
+  border-radius: 0.2rem;
+}
+
+#nota-home{
+  width: 27.5%;
+  background-color: var(--green);
+  background-image: linear-gradient(to right, #2f6469 ,var(--green));
+  margin-left: -0.26rem;
+}
+
+
+/* --------------------------------- Project Pages------------------------ */
+.bordered-box{
+  display: inline-block;
+  margin-bottom: 4rem;
+  padding: 0.5rem;
+  border-style: dashed;
+  border-width: 1px;
+  border-color: var(--yellow);
+}
+
+.bordered-box .inline-it-text{
+  margin-bottom: 0.25em;
+}
+
+#basic-info{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+}
+
+video{
+  position: relative;
+  width: 352px;
+  height: 55%;
+}
+
+.video-caption{
+  position: relative;
+  bottom:0rem;
+  text-align: center;
+  font-weight: 400;
+  width: -webkit-fit-content;
+  margin: auto;
+  padding: 0.75rem;
+  color: var(--dark-green);
+}
+
+
+#personas img{
+  width: 70%;
+  margin: auto;
+}
+
+#bio{
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+#bio h2{
+  margin-top: 0rem;
+}
+#h3-no-top-margin{
+  margin-top: 0rem;
+}
+
+#bio{
+  padding: 0rem 3rem;
+}
+
+/*---------- Learned From https://www.w3schools.com/howto/howto_js_collapsible.asp----------/
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  margin-top:4rem;
+  padding: 0rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-size: 15rem;
+  /* transition: background-color 0.4s; */
+}
+
+
+button.collapsible {
+  font-size: 1rem;
+  letter-spacing: 0.04rem;
+  font-weight: 300;
+  line-height: 1.75rem;
+  opacity: 0.7;
+  max-width: 47rem;
+  padding: 0.75rem;
+  margin: 0.75rem 0rem;
+  background-color:#f5f5f5;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover,.collapsible:active, .collapsible:focus {
+  transition: all 0.4s;
+  color: var(--golden);
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  background-color: var(--almostWhite);
+  max-height: 0;
+  max-width: 33rem;
+  overflow: scroll;
+  transition: max-height 0.2s ease-out;
+  margin-bottom: 2rem;
+
+}
+
+.project-suggestions{
+  display: flex;
+  justify-content: space-around;
+  margin: 4rem 8rem;
+  margin-top: 9rem;
+}
+
+
+
+.two-text-boxes .inline-it-text.small-box{
+  margin-right: 4rem;
+}
+/* ----------------------- Cineworks ---------------------------- */
+#project-cineworks p{
+  max-width: 37rem;
+}
+
+
+#project-cineworks .medium-box{
+  max-width: 17.45rem;
+  margin: 0.25rem;
+}
+
+.three-text-boxes .small-box{
+  max-width: 17.25rem;
+  margin: 0.25rem;
+}
+
+
+#project-cineworks p{
+  max-width: 37rem;
+}
+
+.three-text-boxes{
+  justify-content: space-around;
+}
+
+img.three-col-img{
+  margin-top: 2rem;
+}
+
+
+/* ----------------------- Footer ---------------------------- */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  width:82.5%;
+  color:black;
+  background-color: #f1f1f1;
+  padding:3rem 7rem;
+  text-align: center;
+  font-weight: lighter;
+  justify-content: space-between;
+}
+
+
+footer h2{
+  font-size: 0.95rem;
+  margin: 0rem;
+  margin-bottom: 0.4rem;
+  text-align: left;
+}
+
+footer h2::before{
+  transform: scale(0,0);
+}
+
+footer p{
+  font-size: 0.75rem;
+  margin: 0rem;
+  margin-bottom: -0.25rem;
+  text-align: left;
+  font-weight: 400;
+  opacity: 0.3;
+  letter-spacing: 0.07rem;
+}
+
+footer a{
+  margin-top: 1rem;
+}
+
+.footer-padding{
+  margin-right: 1rem;
+}
+#footer-links {
+  padding: 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+#footer-contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+#footer-contact-info a{
+  font-size: 0.75rem;
+}
+#footer-contact-info img{
+  width: 1rem;
+  opacity: 0.5;
+  margin-bottom: -0.2rem;
+  transition: opacity 0.4s;
+  margin: 0.45rem 0rem;
+}
+#footer-contact-info img:hover{
+  transition: opacity 0.4s;
+  opacity: 0.9;
+}
+
+#footer-links a {
+  font-family: 'Source-Sans-Pro', sans-serif;
+  color:white;
+  height: -webkit-fit-content;
+  font-size: 1rem;
+  font-weight:200;
+  letter-spacing: 0.1rem;
+  line-height: 1.7;
+  margin-left: 1rem;
+  text-decoration: none;
+  margin-bottom: 0.25rem;
+}
+
+#footer-links a[href*="contact"] {
+  margin-right: 0%;
+}
+
+#footer-links p{
+  margin-left: 3%;
+  margin-right: 3%;
+  font-size: 1rem;
+  color: #ababab;
+
+}
+
+#footer-contact-links{
+  height: 4.75rem;
+  justify-content: space-between;
+  margin-left: 0.75rem;
+}
+
+img[src*="facebook"]{
+  margin-right: 0rem;
+}
+
+#diary-post{
+  width: 15rem;
+  line-height: 1.25rem;
+}
+
+#journal-link .link-footer, #btt .link-footer{
+  margin-left: 0rem;
+
+}
+#btt .link-footer{
+  display: flex;
+  margin-bottom: 0.5rem;
+}

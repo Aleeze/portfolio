@@ -1,0 +1,374 @@
+// @import "delayedMain";
+
+// Total validator showing error but okayed by Omid
+@media (min-width: 20em),(max-width: 20em){
+  /* ---------------- Home ------------------- */
+  .page-margin-home{
+    max-width: 90%;
+  }
+  .project-tile{
+    padding: 5rem 2rem;
+    margin: 0.5rem 0rem;
+  }
+
+  #bio{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+    padding: 0.25rem;
+  }
+
+  img[src*="me.jpg"]{
+    margin-bottom: 2rem;
+    width: 279px;
+  }
+
+  #journal-link{
+    text-align: left;
+  }
+
+  #projects figure{
+    margin: 2rem 0rem;
+  }
+
+  #projects{
+    padding: 2.5rem 0rem 6rem 0rem;
+  }
+
+  /* ---------------- Menu Bar ------------------- */
+  nav{
+    padding: 0rem 1rem;
+    justify-content: center;
+  }
+  #logo-container{
+    width: 100%;
+    padding-right: 0rem;
+  }
+
+  .main-nav a{
+    margin: 1.5rem 1.35rem;
+  }
+
+  .non-highlight-projects{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  /* -----------------Projects-------------------- */
+  .page-margin{
+    margin: 0rem 1rem;
+  }
+
+  .project.center-block{
+    width: 100%;
+  }
+
+  .two-text-boxes{
+    flex-direction: column;
+  }
+
+  .two-text-boxes .inline-it-text.small-box, #project-cineworks .two-text-boxes .inline-it-text.medium-box{
+    margin-right: 0rem;
+    width: 95%;
+  }
+
+
+  .focus{
+    padding: 2rem 1rem;
+  }
+
+  .project-suggestions{
+    align-items: center;
+    margin:4rem 8%;
+    justify-content:space-between;
+  }
+  .scroll-bg-color{
+    background-color: var(--almostWhite);
+  }
+  video{
+    width: 350px;
+  }
+  .related{
+    background-color: var(--almostWhite);
+    padding: 1rem;
+  }
+
+  /* -----------------Footer-------------------- */
+  footer{
+
+    padding: 0rem;
+    width: 100%;
+    justify-content:space-between;
+  }
+
+  footer .footer-padding{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 1.5rem;
+    flex-direction: column;
+    justify-content:space-between;
+  }
+  footer #footer-contact-info,#reflective-journal{
+    margin-bottom: 2rem;
+  }
+
+  footer #current-courses{
+    margin-bottom: 0rem;
+  }
+
+  .mySlides{
+    margin: 0.5rem;
+  }
+
+  #workshop-image-gallery{
+    width: 97%;
+  }
+  #projects figure img{
+    width: 17rem;
+  }
+  .overlay-img-link{
+    width: 17.2rem;
+    height: 14.75rem;
+  }
+  img[src*="community-horizontal.png"]{
+    width: 9rem;
+    display: block;
+    margin: auto;
+  }
+}
+
+
+
+
+@media (min-width: 33.125em) {
+  /* ----------------- Menu -------------------- */
+  .two-text-boxes{
+    flex-direction: row;
+  }
+
+  #logo-container{
+    width: 10%;
+    padding-right: 2rem;
+  }
+
+  nav{
+    padding: 0rem 2rem 0rem 2rem;
+    justify-content: space-between;
+  }
+
+  .main-nav a{
+    margin: 1.5rem 1.5rem;
+  }
+
+
+  /* ---------------- Home ------------------- */
+  .page-margin-home{
+    max-width: 85%;
+  }
+
+  .project-tile{
+    margin: 0.25rem;
+    padding: 7rem 2rem;
+  }
+
+  .non-highlight-projects{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+
+  #projects figure img{
+    width: 19rem;
+  }
+
+  .overlay-img-link{
+    width: 19rem;
+    height: 16.25rem;
+  }
+
+
+
+  /* -----------------Footer-------------------- */
+  footer{
+    flex-direction: row;
+  }
+  .project.center-block{
+    width: 100%;
+  }
+
+  footer .footer-padding{
+    display: flex;
+    padding: 1.5rem;
+    /* flex-direction: row; */
+  }
+
+  footer #footer-contact-info,#reflective-journal{
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+  }
+  .mySlides{
+    margin: 0.5rem;
+  }
+  /* ----------------- Projects -------------------- */
+
+  video{
+    width: 370px;
+  }
+  .small-box{
+    max-width: 16rem;
+  }
+  .related-headings{
+    padding: 0rem;
+  }
+  .related.two-text-boxes{
+    background-color: white;
+  }
+  .two-text-boxes .inline-it-text.small-box{
+    margin-right: 3rem;
+  }
+  .related{
+    padding: 0rem;
+  }
+}
+
+@media (min-width: 38em) {
+
+  nav{
+    padding: 0rem 4rem 0rem 4rem;
+    justify-content: space-between;
+  }
+
+  .main-nav a{
+    margin: 1.5rem 1.95rem;
+  }
+  .mySlides{
+    margin: 1rem 3rem;
+  }
+  #workshop-image-gallery{
+    width: 72%;
+  }
+
+}
+
+@media (min-width: 38.21875em) {
+  img[src*="community-horizontal.png"]{
+    width: 37rem;
+  }
+
+}
+
+
+
+@media (min-width: 40.625em) {
+
+  /* ----------------- Menu -------------------- */
+
+  .menu-items{
+    width: 27rem;
+  }
+
+  .project.center-block{
+    width: 85%;
+  }
+
+  .project-suggestions{
+    align-items: center;
+    margin:4rem 18%;
+    justify-content:space-between;
+  }
+
+  /* -----------------Footer-------------------- */
+  footer #footer-contact-info,#reflective-journal{
+    margin-bottom: 0rem;
+    margin-right: 2rem;
+  }
+  footer .footer-padding{
+    display: flex;
+    padding: 1.75rem 4rem;
+    flex-direction: row;
+  }
+
+  #clue-screens img{
+    /* width: 104%; */
+  }
+
+
+
+}
+@media (min-width: 48.75em) {
+  #projects figure{
+    margin: 2rem 2rem;
+  }
+}
+
+@media (min-width: 50em) {
+  #journal-link{
+    text-align: right;
+
+  }
+
+}
+
+@media (min-width: 62.5em) {
+  /* ----------------- Home -------------------- */
+
+  #bio{
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  img[src*="me.jpg"]{
+    margin-bottom: 0rem;
+    margin-right: 4rem;
+    width: 460px;
+  }
+
+  .project.center-block{
+    width: 77%;
+  }
+
+  footer .footer-padding{
+    display: flex;
+    padding: 1.75rem 8rem;
+    flex-direction: row;
+  }
+  #logo-container{
+    width: 2rem;
+  }
+
+  #projects{
+    padding: 2.5rem 0rem 10rem 0rem;
+  }
+}
+
+@media (min-width: 74.3125em) {
+  .related.three-text-boxes{
+    background-color: white;
+  }
+}
+@media (min-width: 75.4375em) {
+  .scroll-bg-color{
+    background-color: white;
+  }
+
+  @media (min-width: 80.5em) {
+    .project.center-block{
+      max-width: 60%;
+    }
+    #projects{
+      padding: 2.5rem 0rem 10rem 0rem;
+    }
+  }
+
+}
+  @media (min-width: 90.5em) {
+
+    .project.center-block{
+      max-width: 53%;
+    }
+
+  }

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 269.4 230.8" style="enable-background:new 0 0 269.4 230.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#83D2E5;}
+	.st2{opacity:0.76;fill:#ED186A;enable-background:new    ;}
+	.st3{opacity:0.76;fill:#224A82;enable-background:new    ;}
+	
+		.st4{fill:none;stroke:#F5F4F0;stroke-width:4.0247;stroke-miterlimit:10;stroke-dasharray:8.9439,8.9439,8.9439,8.9439,8.9439,8.9439;}
+</style>
+<g id="Layer_1">
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-25.0139" y1="106.66" x2="295.7311" y2="106.66">
+		<stop  offset="0" style="stop-color:#11191C"/>
+		<stop  offset="0.5094" style="stop-color:#131A1E;stop-opacity:0.9"/>
+		<stop  offset="1" style="stop-color:#11191C"/>
+	</linearGradient>
+	<rect x="-25" y="-17.6" class="st0" width="320.7" height="248.6"/>
+	<title>Artboard 1</title>
+	
+		<rect x="92.8" y="44.3" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -21.4569 120.4792)" class="st1" width="83.8" height="83.8"/>
+	
+		<rect x="152" y="103.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -45.9887 179.6978)" class="st2" width="83.8" height="83.8"/>
+	
+		<rect x="33.6" y="103.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -80.6729 95.9537)" class="st3" width="83.8" height="83.8"/>
+	<line class="st4" x1="28.6" y1="142.8" x2="140.7" y2="30.7"/>
+	<line class="st4" x1="133.5" y1="35" x2="247.2" y2="148.7"/>
+	<line class="st4" x1="190.6" y1="193.6" x2="82.4" y2="85.7"/>
+	<line class="st4" x1="79.3" y1="193.6" x2="186.2" y2="87.5"/>
+	<rect x="80.8" y="83.1" transform="matrix(0.7071 0.7071 -0.7071 0.7071 84.1839 -32.913)" class="st1" width="2.1" height="4.1"/>
+	
+		<rect x="85.1" y="87.4" transform="matrix(0.7071 0.7071 -0.7071 0.7071 88.6341 -34.6256)" class="st1" width="2.1" height="4.5"/>
+	
+		<rect x="182.8" y="87.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -9.6172 156.3095)" class="st1" width="2.1" height="4.5"/>
+</g>
+<g id="Layer_2">
+</g>
+</svg>
