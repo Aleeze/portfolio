@@ -84,12 +84,16 @@
     margin:4rem 8%;
     justify-content:space-between;
   }
+
+  // necessary to show that the images on clue SOS are scrollable on smaller sizes
   .scroll-bg-color{
     background-color: var(--almostWhite);
   }
   video{
     width: 350px;
   }
+
+  // necessary to show that the side by side text boxes are related on smaller sized as well
   .related{
     background-color: var(--almostWhite);
     padding: 1rem;
@@ -140,8 +144,6 @@
     margin: auto;
   }
 }
-
-
 
 
 @media (min-width: 33.125em) {
@@ -203,7 +205,6 @@
   footer .footer-padding{
     display: flex;
     padding: 1.5rem;
-    /* flex-direction: row; */
   }
 
   footer #footer-contact-info,#reflective-journal{
@@ -290,10 +291,6 @@
     display: flex;
     padding: 1.75rem 4rem;
     flex-direction: row;
-  }
-
-  #clue-screens img{
-    /* width: 104%; */
   }
 
 

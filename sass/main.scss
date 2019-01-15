@@ -615,7 +615,10 @@ video{
   padding: 0.75rem;
   color: var(--dark-green);
 }
-
+/* Prevents img without src to appear */
+img:not([src]) {
+    visibility: hidden;
+}
 
 #personas img{
   width: 70%;
